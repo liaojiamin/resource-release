@@ -1,0 +1,8 @@
+<target name="weave" depends="compile" description="handles Kilim byte code weaving">
+    <java classname="kilim.tools.Weaver" fork="yes">
+        <classpath refid="classpath" />
+        <arg value="-d" />
+        <arg value="./target/classes" />
+        <arg line="./target/classes" />
+    </java>
+</target>
