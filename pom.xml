@@ -16,6 +16,12 @@
             <version>3.5.8</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>20.0</version>
+        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/org.db4j/kilim -->
         <dependency>
@@ -30,6 +36,12 @@
             <groupId>nio</groupId>
             <artifactId>nio</artifactId>
             <version>1.0.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.9.Final</version>
         </dependency>
 
         <dependency>

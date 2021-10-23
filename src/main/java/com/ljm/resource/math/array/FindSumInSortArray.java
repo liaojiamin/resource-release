@@ -1,5 +1,8 @@
 package com.ljm.resource.math.array;
 
+import com.google.common.hash.Hashing;
+
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,11 +14,14 @@ import java.util.Map;
 public class FindSumInSortArray {
 
     public static void main(String[] args) {
-        int[] array = new int[]{1,2,3,7,8,11,14,16,17,18,23,47,59,67,79,83,222,344,556,778};
-        System.out.println(findSumNum(array, 25));
-        int[] arrayAll = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14};
-        System.out.println(findAllSumList(arrayAll, 15));
-        System.out.println(findSumInList(array, 18));
+        System.out.println("310919c471ed565a9ba7df0fdd025b9c".hashCode());
+        System.out.println(Hashing.murmur3_128().newHasher().putString("feb67dff-7ef9-ea1d-1bfb-dfb06ef7e96b", StandardCharsets.UTF_8).hash().toString());
+        System.out.println((long)(Double.valueOf(60.00)* Double.valueOf(100)));
+//        int[] array = new int[]{1,2,3,7,8,11,14,16,17,18,23,47,59,67,79,83,222,344,556,778};
+//        System.out.println(findSumNum(array, 25));
+//        int[] arrayAll = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14};
+//        System.out.println(findAllSumList(arrayAll, 15));
+//        System.out.println(findSumInList(array, 18));
     }
 
     /**

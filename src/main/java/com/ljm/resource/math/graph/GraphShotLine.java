@@ -40,18 +40,21 @@ public class GraphShotLine {
             //每次取第一个最小值
             Vertex smallVertex = sunVertexList.removeFirst();
             smallVertex.setKnow(true);
-
+            //保存需要添加的新节点
+            LinkedList<Vertex> newVertexList = new LinkedList<>();
             for (Vertex vertex : smallVertex.getVertexList()) {
                 if(!vertex.isKnow()){
                     Integer cvw = vertex.getWeight();
                     if(smallVertex.getDist() + cvw < vertex.getDist()){
                         vertex.setDist(smallVertex.getDist() + cvw);
                         vertex.setPath(smallVertex);
+                        //处理过的节点才是之后可能的路径
+                        newVertexList.add(vertex);
                     }
                 }
             }
-            //按从小到大顺序加入有序队列
-            sunVertexList.addAll(getSortVertex(smallVertex.getVertexList()));
+            //将可能的路径按从小到大顺序加入有序队列
+            sunVertexList.addAll(getSortVertex(newVertexList));
         }
     }
 
@@ -63,7 +66,7 @@ public class GraphShotLine {
             return null;
         }
         for (int i = 0; i < vertexs.size(); i++) {
-            for(int j = i;j > 0;j--){
+            for(int j = i+1;j > 0;j--){
                 if(vertexs.get(j-1).compareTo(vertexs.get(j)) > 0 ){
                     Vertex vertex = vertexs.get(j-1);
                     vertexs.set(j-1, vertexs.get(j));
@@ -86,8 +89,7 @@ public class GraphShotLine {
         LinkedList<Vertex> sunVertexList = new LinkedList<>();
         sunVertexList.addFirst(s);
         while (!sunVertexList.isEmpty()){
-            Vertex sunVertex = sunVertexList.getFirst();
-            sunVertexList.removeFirst();
+            Vertex sunVertex =  sunVertexList.removeFirst();;
             for (Vertex vertex : sunVertex.getVertexList()) {
                 if(vertex.getDist() == MAX_DIST){
                     vertex.setDist(sunVertex.getDist() +1);
