@@ -347,6 +347,7 @@ public class CityHash {
     }
 
     public static void main(String[] args) {
+        System.out.println("67d".hashCode());
         System.out.println(cityHash128("96b".getBytes(), 0, 3));
     }
 
