@@ -8,28 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c53eecfc-d2c8-4361-98d8-bf1d88d4b0d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/MailTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/Serializer/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/Serializer/SerializerAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/Serializer/impl/JSONSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/Serializer/impl/KryoSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/Serializer/impl/ProtoStuffSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/client/Clienthandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/client/LiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/common/MsgConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/common/MsgCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/common/MsgRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/protocal/codec/PacketCodeC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/protocal/commond/Commond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/protocal/packet/MsgPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/protocal/packet/Packet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/server/ServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/server/ZhangServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/seriali/SerializableClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/seriali/SerializableTestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConverListToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/SortArrayToAvlTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/SolutionList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/hashMath/CityHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/hashMath/CityHash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/FindCommonNumberListInSortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/FindCommonNumberListInSortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ljm/resource/math/myList/FindCommonNumberListInSortList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ljm/resource/math/myList/FindCommonNumberListInSortList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ljm/resource/netty/io/seriali/SerializableClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ljm/resource/netty/io/seriali/SerializableClass.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,78 +64,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SerializableTestDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/seriali/SerializableTestDemo.java">
+      <file leaf-file-name="FindCommonNumberListInSortList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/FindCommonNumberListInSortList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectOutputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectOutputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="1521" selection-start-line="1521" selection-end-line="1521" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectStreamClass.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectStreamClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="861" selection-start-line="861" selection-end-line="861" />
+            <state relative-caret-position="275">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="48" />
               <folding>
-                <element signature="e#5395#5396#0" expanded="true" />
-                <element signature="e#5471#5472#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectInputStream.java">
+      <file leaf-file-name="ConverListToBinary.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConverListToBinary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="2038" lean-forward="true" selection-start-line="2038" selection-end-line="2038" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectStreamConstants.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectStreamConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializableClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/seriali/SerializableClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="723">
+              <caret line="83" column="1" selection-start-line="5" selection-end-line="83" selection-end-column="1" />
               <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/sort/BubbleSort.java">
+      <file leaf-file-name="SortArrayToAvlTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/SortArrayToAvlTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="100">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/MyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="177" column="16" selection-start-line="177" selection-start-column="16" selection-end-line="177" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryNodeComparable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BinaryNodeComparable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-750">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1183#1184#0" expanded="true" />
+                <element signature="e#1594#1595#0" expanded="true" />
+                <element signature="e#1637#1638#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,11 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>channelActi</find>
-      <find>exceptionCau</find>
-      <find>public void bind</find>
-      <find>void bind</find>
-      <find>void flush</find>
       <find>shutdownInput</find>
       <find>OP_ACCEPT</find>
       <find>QuestionAsync</find>
@@ -199,6 +181,11 @@
       <find>接入连接</find>
       <find>hufman</find>
       <find>writeObject(</find>
+      <find>环</find>
+      <find>containskey</find>
+      <find>平衡</find>
+      <find>深度</find>
+      <find>insert</find>
     </findStrings>
     <replaceStrings>
       <replace>AnyType</replace>
@@ -216,12 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ValidateBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/strtest/FindFactorNum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/strtest/FindMiddleNumInTwoArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/echoserver/EchoServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/echoclient/EchoClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/echoclient/EchoClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/echoserver/EchoServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/PlainOioServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/PlainOioClient.java" />
@@ -267,6 +248,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/protocal/codec/PacketCodeC.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/seriali/SerializableTestDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/seriali/SerializableClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/SolutionList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/FindCommonNumberListInSortList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/ValidateContinuous.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/SortArrayToAvlTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConvertBinaryToList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConverListToBinary.java" />
       </list>
     </option>
   </component>
@@ -310,6 +297,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -350,7 +340,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
@@ -360,6 +350,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
               <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resource-release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="binary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
@@ -379,7 +380,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
               <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="matrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
@@ -388,7 +389,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="myList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
@@ -397,33 +399,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resource-release" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="seriali" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resource-release" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="myStack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,64 +443,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SerializableTestDemo">
+  <component name="RunManager" selected="Application.ConverListToBinary">
+    <configuration name="ConverListToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljm.resource.math.binary.ConverListToBinary" />
+      <module name="resource-release" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljm.resource.math.binary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ConvertBinaryToList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljm.resource.math.binary.ConvertBinaryToList" />
+      <module name="resource-release" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljm.resource.math.binary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="EchoClient" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.ljm.resource.netty.echoclient.EchoClient" />
       <module name="resource-release" />
       <option name="PROGRAM_PARAMETERS" value="127.0.0.1 3333" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
-    <configuration name="LiClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljm.resource.netty.chat.client.LiClient" />
+    <configuration name="FindCommonNumberListInSortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljm.resource.math.myList.FindCommonNumberListInSortList" />
       <module name="resource-release" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljm.resource.netty.chat.client.*" />
+          <option name="PATTERN" value="com.ljm.resource.math.myList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MailTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljm.resource.netty.chat.MailTest" />
+    <configuration name="SortArrayToAvlTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljm.resource.math.binary.SortArrayToAvlTree" />
       <module name="resource-release" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljm.resource.netty.chat.*" />
+          <option name="PATTERN" value="com.ljm.resource.math.binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljm.resource.math.array.Permutation" />
+    <configuration name="ValidateContinuous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljm.resource.math.array.ValidateContinuous" />
       <module name="resource-release" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ljm.resource.math.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SerializableTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljm.resource.netty.io.seriali.SerializableTestDemo" />
-      <module name="resource-release" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljm.resource.netty.io.seriali.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ZhangServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljm.resource.netty.chat.server.ZhangServer" />
-      <module name="resource-release" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljm.resource.netty.chat.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -566,19 +548,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.EchoClient" />
-      <item itemvalue="Application.LiClient" />
-      <item itemvalue="Application.ZhangServer" />
-      <item itemvalue="Application.MailTest" />
-      <item itemvalue="Application.Permutation" />
-      <item itemvalue="Application.SerializableTestDemo" />
+      <item itemvalue="Application.FindCommonNumberListInSortList" />
+      <item itemvalue="Application.ValidateContinuous" />
+      <item itemvalue="Application.SortArrayToAvlTree" />
+      <item itemvalue="Application.ConvertBinaryToList" />
+      <item itemvalue="Application.ConverListToBinary" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SerializableTestDemo" />
-        <item itemvalue="Application.MailTest" />
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.ZhangServer" />
-        <item itemvalue="Application.LiClient" />
+        <item itemvalue="Application.ConverListToBinary" />
+        <item itemvalue="Application.ConvertBinaryToList" />
+        <item itemvalue="Application.SortArrayToAvlTree" />
+        <item itemvalue="Application.ValidateContinuous" />
+        <item itemvalue="Application.FindCommonNumberListInSortList" />
       </list>
     </recent_temporary>
   </component>
@@ -719,6 +701,9 @@
       <workItem from="1636515017661" duration="3955000" />
       <workItem from="1639713043714" duration="591000" />
       <workItem from="1644284948741" duration="9512000" />
+      <workItem from="1644561376602" duration="6296000" />
+      <workItem from="1645154001730" duration="13924000" />
+      <workItem from="1645424555959" duration="27021000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1634985305514</created>
@@ -731,7 +716,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1534904000" />
+    <option name="totallyTimeSpent" value="1582145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,7 +733,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32982087" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.46097046" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.39240506" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -756,11 +741,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78411514" weight="0.2943038" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78411514" weight="0.18565401" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32982087" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.90123457" visible="true" weight="0.16950959" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.90123457" visible="true" weight="0.20735608" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49858356" weight="0.32995737" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982087" />
       <window_info id="Structure" order="7" sideWeight="0.1036036" side_tool="true" weight="0.12153518" />
@@ -768,7 +753,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="6" sideWeight="0.09876543" side_tool="true" weight="0.28198293" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19198312" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2299578" />
       <window_info anchor="bottom" id="Spring" order="12" sideWeight="0.49946696" weight="0.47437295" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1368,39 +1353,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConvertBinaryToList.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="261" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConvertBinaryToList.java</url>
           <line>13</line>
           <properties />
           <option name="timeStamp" value="266" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConvertBinaryToList.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="267" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConvertBinaryToList.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="278" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConvertBinaryToList.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="279" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConvertBinaryToList.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="280" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/Permutation.java</url>
@@ -1859,18 +1814,6 @@
           <option name="timeStamp" value="515" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BinaryNode.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="534" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BinaryNode.java</url>
-          <line>80</line>
-          <properties />
-          <option name="timeStamp" value="535" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/strtest/FindMiddleNumInTwoArray.java</url>
           <line>14</line>
           <properties />
@@ -2026,6 +1969,24 @@
           <properties />
           <option name="timeStamp" value="619" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/FindCommonNumberListInSortList.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/SortArrayToAvlTree.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="626" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConvertBinaryToList.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="627" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/singleton/SingletonThree.java</url>
           <line>8</line>
@@ -2049,7 +2010,7 @@
           <option name="timeStamp" value="521" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="620" />
+      <option name="time" value="631" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -2074,226 +2035,87 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/FindSumInSortArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/protocal/codec/PacketCodeC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="350">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/MaxSumRec.java">
+    <entry file="file://$PROJECT_DIR$/file">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+        <state relative-caret-position="37125">
+          <caret line="1521" selection-start-line="1521" selection-end-line="1521" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/weiss/MyPermute.java">
+    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectStreamClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="19650">
+          <caret line="861" selection-start-line="861" selection-end-line="861" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/echoserver/EchoServer.java">
+    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="49725">
+          <caret line="2038" selection-start-line="2038" selection-end-line="2038" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectStreamConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/seriali/SerializableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/seriali/SerializableTestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13800">
+          <caret line="595" column="20" selection-start-line="595" selection-start-column="20" selection-end-line="595" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#23628#23629#0" expanded="true" />
+            <element signature="e#23682#23683#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/ChatThread.java">
+    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        <state relative-caret-position="2550">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/PlainNioClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myStack/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="78" column="45" lean-forward="true" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/PlainNioServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/netty/oio/NettyOioClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="28" column="69" lean-forward="true" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1129#1438#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/echoclient/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1006#1315#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="158" column="13" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/common/MsgCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.48.Final/netty-common-4.1.48.Final.jar!/io/netty/util/concurrent/EventExecutorGroup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="377" column="32" selection-start-line="377" selection-start-column="32" selection-end-line="377" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ChannelOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="117" column="47" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="129" column="12" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/protocal/commond/Commond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/Serializer/SerializerAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/Serializer/impl/ProtoStuffSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/protocal/packet/Packet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/protocal/packet/MsgPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/Serializer/impl/KryoSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/Serializer/impl/JSONSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/common/MsgRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.48.Final/netty-codec-4.1.48.Final.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="1500">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -2307,164 +2129,284 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ChannelFuture.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/ValidateContinuous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4300">
-          <caret line="191" column="18" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
+        <state relative-caret-position="1000">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/server/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/Serializer/Serializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/common/MsgConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/MailTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/server/ZhangServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/FinMinNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/util/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BinaryHeapMax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11800">
-          <caret line="505" column="16" selection-start-line="505" selection-start-column="16" selection-end-line="505" selection-end-column="16" />
+        <state relative-caret-position="225">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/greedy/HufmanCode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BinaryDepth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/AnyType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/GetNumberOfK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/GetLeastNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/PrintBinaryTopToBottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/MirrorBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/GetMiddleSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/FinMaxKNumberInBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/FindPathInBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/MyBinaryHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BinaryHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ValidateBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2625">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/PostfixExTOTreeEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1402">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BuildGenerateTrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="3590" selection-start-line="3590" selection-end-line="3590" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/FindCommonNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConvertBinaryToList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1183">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/FindFirstCommonNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3023">
+          <caret line="127" column="34" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/JosephusForList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/SolutionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/matrix/PrintMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/matrix/Summation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/matrix/SummationForBit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/matrix/SummationRecursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/hashMath/CityHash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="346" column="5" selection-start-line="346" selection-start-column="5" selection-end-line="346" selection-end-column="5" />
+        <state relative-caret-position="400">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/client/Clienthandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/AvlTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="365">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/client/LiClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BinaryNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="25">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/protocal/codec/PacketCodeC.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BinaryNodeComparable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="-750">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/SortArrayToAvlTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectOutputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="1521" selection-start-line="1521" selection-end-line="1521" />
+        <state relative-caret-position="231">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectStreamClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/FindCommonNumberListInSortList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="861" selection-start-line="861" selection-end-line="861" />
+        <state relative-caret-position="275">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="48" />
           <folding>
-            <element signature="e#5395#5396#0" expanded="true" />
-            <element signature="e#5471#5472#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectInputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="2038" lean-forward="true" selection-start-line="2038" selection-end-line="2038" />
+        <state relative-caret-position="311">
+          <caret line="177" column="16" selection-start-line="177" selection-start-column="16" selection-end-line="177" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/ObjectStreamConstants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/ConverListToBinary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/seriali/SerializableClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="723">
+          <caret line="83" column="1" selection-start-line="5" selection-end-line="83" selection-end-column="1" />
           <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/seriali/SerializableTestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
     </entry>
