@@ -27,6 +27,7 @@
     <orderEntry type="library" name="Maven: org.db4j:kilim:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.ow2.asm:asm-tree:7.0" level="project" />
     <orderEntry type="library" name="Maven: nio:nio:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.clojure:clojure:1.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.27.0-GA" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.8.0" level="project" />
     <orderEntry type="library" name="Maven: cglib:cglib:3.3.0" level="project" />
