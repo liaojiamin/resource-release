@@ -179,10 +179,10 @@ public class BinarySearchTree {
         if (t == null || t.getElement() == null) {
             return;
         }
-        printTree(t.getLeft());
         for (int i = 0; i < t.getCount(); i++) {
             System.out.println(t.getElement() + ":" + t.getHeight());
         }
+        printTree(t.getLeft());
         printTree(t.getRight());
     }
 }

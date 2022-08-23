@@ -6,6 +6,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 
 /**
+<<<<<<< HEAD
  * Created by jiamin5 on 2022/8/17.
  */
 public class NIOClient {
@@ -24,5 +25,24 @@ public class NIOClient {
         Thread.sleep(5000);
         socketChannel.close();
 
+=======
+ * @author liaojiamin
+ * @Date:Created in 19:30 2022/8/17
+ */
+public class NIOClient {
+    public static void main(String[] args) throws IOException {
+        SocketChannel socketChannel = SocketChannel.open();
+        socketChannel.configureBlocking(false);
+        InetSocketAddress inetSocketAddress = new InetSocketAddress("127.0.0.1", 6666);
+        if(!socketChannel.connect(inetSocketAddress)){
+            while (!socketChannel.finishConnect()){
+                System.out.println("can not connection 127.0.0.1 6666");
+            }
+        }
+        String str = "hello world";
+        ByteBuffer byteBuffer = ByteBuffer.wrap(str.getBytes());
+        socketChannel.write(byteBuffer);
+        System.in.read();
+>>>>>>> 029a5444852e69ea5db1929c3953bcc8025dc762
     }
 }

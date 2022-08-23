@@ -83,10 +83,12 @@ public class BinaryNode implements Comparable {
         }
         int flag;
         if (o instanceof Integer) {
-            int myElement = (int) this.element - (int) o;
+            int myElement = ((int) this.element == (int) o)
+                    ? 0: ((int) this.element > (int) o) ? 1 : -1;
             flag = myElement > 0 ? 1 : myElement == 0 ? 0 : -1;
         } else if (o instanceof  BinaryNode){
-            int myElement = (int) this.element - (int)((BinaryNode) o).getElement();
+            int myElement = ((int) this.element == (int)((BinaryNode) o).getElement() )
+                    ? 0 : ((int) this.element > (int)((BinaryNode) o).getElement()) ? 1 : -1;
             flag = myElement > 0 ? 1 : myElement == 0 ? 0 : -1;
         }else {
             flag = this.element.toString().compareTo(o.toString());

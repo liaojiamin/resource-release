@@ -1,6 +1,7 @@
 package com.ljm.resource.math.matrix;
 
 /**
+ * 不用+-* / 做加法
  * @author liaojiamin
  * @Date:Created in 15:16 2021/7/8
  */

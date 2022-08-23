@@ -16,6 +16,12 @@
             <version>3.5.8</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>20.0</version>
+        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/org.db4j/kilim -->
         <dependency>
@@ -26,10 +32,16 @@
 
 
         <!-- https://mvnrepository.com/artifact/nio/nio -->
+        <!--<dependency>-->
+            <!--<groupId>nio</groupId>-->
+            <!--<artifactId>nio</artifactId>-->
+            <!--<version>1.0.4</version>-->
+        <!--</dependency>-->
+
         <dependency>
-            <groupId>nio</groupId>
-            <artifactId>nio</artifactId>
-            <version>1.0.4</version>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.9.Final</version>
         </dependency>
 
         <dependency>
@@ -64,11 +76,6 @@
             <version>3.6</version>
         </dependency>
         <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>27.1-jre</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-email</artifactId>
             <version>1.3.3</version>
@@ -83,6 +90,25 @@
             <groupId>com.ljm.project</groupId>
             <artifactId>resource-release</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!-- protostuff -->
+        <dependency>
+            <groupId>io.protostuff</groupId>
+            <artifactId>protostuff-core</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.protostuff</groupId>
+            <artifactId>protostuff-runtime</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+
+        <!-- kryo -->
+        <dependency>
+            <groupId>com.esotericsoftware</groupId>
+            <artifactId>kryo</artifactId>
+            <version>5.0.0-RC4</version>
         </dependency>
 
     </dependencies>

@@ -11,6 +11,7 @@ import java.util.List;
 public class Vertex implements Comparable<Vertex> {
     //图节点相邻节点组
     private List<Vertex> vertexList = new ArrayList<>();
+    //图节点入度节点组
     private List<Vertex> insertVertexList = new ArrayList<>();
     private Integer dist;
     private boolean know;

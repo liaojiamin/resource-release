@@ -234,8 +234,8 @@ public class NumberOfBit {
 
     public static void main(String[] args) {
 //        System.out.println(power(7d,31));
-        System.out.println(powerWithUnsignedExponent(2d,31));
-//        print1ToMaxOfNDigitsRecursively(5);
+//        System.out.println(powerWithUnsignedExponent(2d,31));
+        print1ToMaxOfNDigitsRecursively(5);
 //        System.out.println(base26("AA"));
 //        print1ToMaxOfNDigits(3);
 //        System.out.println(base26("AB"));
