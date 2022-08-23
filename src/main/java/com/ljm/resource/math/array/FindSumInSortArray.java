@@ -1,9 +1,12 @@
 package com.ljm.resource.math.array;
 
+import com.google.common.collect.Lists;
 import com.google.common.hash.Hashing;
 
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -14,14 +17,23 @@ import java.util.Map;
 public class FindSumInSortArray {
 
     public static void main(String[] args) {
-        System.out.println("310919c471ed565a9ba7df0fdd025b9c".hashCode());
-        System.out.println(Hashing.murmur3_128().newHasher().putString("feb67dff-7ef9-ea1d-1bfb-dfb06ef7e96b", StandardCharsets.UTF_8).hash().toString());
-        System.out.println((long)(Double.valueOf(60.00)* Double.valueOf(100)));
-//        int[] array = new int[]{1,2,3,7,8,11,14,16,17,18,23,47,59,67,79,83,222,344,556,778};
+//        System.out.println("310919c471ed565a9ba7df0fdd025b9c".hashCode());
+//        System.out.println(Hashing.murmur3_128().newHasher().putString("feb67dff-7ef9-ea1d-1bfb-dfb06ef7e96b", StandardCharsets.UTF_8).hash().toString());
+//        System.out.println((long)(Double.valueOf(60.00)* Double.valueOf(100)));
+        int[] array = new int[]{1,2,3,7,8,11,14,16,17,18,23,47,59,67,79,83,222,344,556,778};
 //        System.out.println(findSumNum(array, 25));
-//        int[] arrayAll = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14};
-//        System.out.println(findAllSumList(arrayAll, 15));
+        int[] arrayAll = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14};
+//        System.out.println(findAllSumList(arrayAll, 14));
 //        System.out.println(findSumInList(array, 18));
+        List<int[]> allCombom = findAllCombination(arrayAll, 9);
+        for (int[] mySumNum : allCombom) {
+            for (int i = 0; i < mySumNum.length; i++) {
+                if(mySumNum[i] > 0){
+                    System.out.print(mySumNum[i] + ",");
+                }
+            }
+            System.out.println();
+        }
     }
 
     /**
@@ -42,6 +54,60 @@ public class FindSumInSortArray {
             sumKeyValue.put(key, key);
         }
         return  exists;
+    }
+
+    /**
+     * 有序数组中找出所有和为s的数字的组合,
+     * */
+    public static List<int[]> findAllCombination(int[] array, int s){
+        if(array == null || array.length <= 0){
+            return Lists.newArrayList();
+        }
+        int positionBig = array.length - 1;
+
+        List<int[]> allCombination = new ArrayList<>();
+        while (array[positionBig] >= s){
+            if(array[positionBig] == s){
+                allCombination.add(new int[]{array[positionBig]});
+            }
+            positionBig--;
+        }
+        while (positionBig > 0){
+            int positionSmall = positionBig - 1;
+            int[] temp = new int[positionBig+1];
+            temp[0] = array[positionBig];
+            int tempPosition = 1;
+            while (positionSmall >= 0){
+                int sum = 0;
+                for (int i=0;i<temp.length;i++){
+                    sum+=temp[i];
+                }
+                sum += array[positionSmall];
+                if(sum > s){
+                    positionSmall --;
+                    continue;
+                }
+                if(sum < s){
+                    temp[tempPosition] = array[positionSmall];
+                    tempPosition ++;
+                    positionSmall--;
+                    continue;
+                }
+                if(sum == s){
+                    temp[tempPosition] = array[positionSmall];
+                    allCombination.add(temp);
+                    temp = new int[positionBig];
+                    tempPosition = 0;
+                    temp[tempPosition] = array[positionBig];
+                    tempPosition ++;
+                    positionSmall --;
+                    continue;
+                }
+            }
+            positionBig --;
+
+        }
+        return allCombination;
     }
 
     /**

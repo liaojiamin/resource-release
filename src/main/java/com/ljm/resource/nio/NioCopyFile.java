@@ -12,6 +12,10 @@ import java.nio.channels.FileChannel;
  * @Date:Created in 18:15 2020/4/2
  */
 public class NioCopyFile {
+
+    public static void main(String[] args) throws IOException {
+        nioCopyFileTest("E:\\learn\\问题汇总\\MYSQL.md", "E:\\learn\\问题汇总\\MYSQL_1.md");
+    }
     public static void nioCopyFileTest(String source, String destination) throws IOException {
         FileInputStream fis = new FileInputStream(source);
         FileOutputStream fos = new FileOutputStream(destination);
