@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
 import java.nio.channels.SocketChannel;
 
 /**
@@ -12,7 +13,7 @@ import java.nio.channels.SocketChannel;
  * @Date:Created in 10:13 2022/8/18
  */
 public class NIOClientFileCopyDemo {
-    private static final String filePath = "E:\\learn\\问题汇总\\test_md.md";
+    private static final String filePath = "/Users/jiamin/Desktop/《斗破苍穹》.txt";
 
     public static void main(String[] args) throws IOException, InterruptedException {
         SocketChannel socketChannel = SocketChannel.open();
@@ -23,14 +24,16 @@ public class NIOClientFileCopyDemo {
                 System.out.println("can not collection server 127.0.0.1:6666");
             }
         }
-        BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(filePath));
-        byte[] bytes = new byte[1024];
-        while (bufferedInputStream.read(bytes) >= 0) {
-            ByteBuffer byteBuffer = ByteBuffer.wrap(bytes);
+        FileChannel fileChannel = new FileInputStream(filePath).getChannel();
+        ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
+        int count = 0;
+        while (fileChannel.read(byteBuffer) > 0) {
+            byteBuffer.flip();
             socketChannel.write(byteBuffer);
             System.out.println("info: " + new String(byteBuffer.array()) + " size: " + byteBuffer.array().length);
+            count++;
+            byteBuffer.clear();
         }
-        socketChannel.close();
-        bufferedInputStream.close();
+        System.out.println("last version :"+ count);
     }
 }

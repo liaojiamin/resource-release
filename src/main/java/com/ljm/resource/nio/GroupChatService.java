@@ -7,6 +7,7 @@ import java.nio.channels.*;
 import java.util.Iterator;
 
 /**
+ * 群聊服务器
  * @author liaojiamin
  * @Date:Created in 15:49 2022/8/22
  */
@@ -31,6 +32,7 @@ public class GroupChatService {
     }
 
     public void listen() {
+        System.out.println("listen thread name "+ Thread.currentThread().getName());
         try {
             while (true) {
                 int count = selector.select(2000);
@@ -93,6 +95,7 @@ public class GroupChatService {
     public void sendInfoToOtherClients(String msg, SocketChannel socketChannel) {
         try {
             System.out.println("消息转发中.....");
+            System.out.println("sendInfoToOtherClients thread name "+ Thread.currentThread().getName());
             for (SelectionKey selectionKey : selector.keys()) {
                 Channel targetChannel = selectionKey.channel();
                 if (targetChannel instanceof SocketChannel && targetChannel != socketChannel) {

@@ -10,6 +10,7 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 /**
+ * 群聊客户端
  * @author liaojiamin
  * @Date:Created in 16:03 2022/8/22
  */
