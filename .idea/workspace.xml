@@ -8,49 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c53eecfc-d2c8-4361-98d8-bf1d88d4b0d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/adapt/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/adapt/FlyTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/adapt/Flying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/adapt/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/conponent/EagleFlyComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/conponent/FlyConcreteComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/conponent/FlyConponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/conponent/FlyDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/conponent/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/conponent/PlaneFlyComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/visit/IShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/design/visit/IVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/io/BIOClientSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/io/BIOServiceSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/io/BufferReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/io/BufferedInputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/io/ByteArrayInputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/io/CharArrayReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/io/Serialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/maintest/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/LearnTestMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/ValidatePalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/myList/AddTowLinkedNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/NIOClientFileCopyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/NIOServerFileCopyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/ChannelInPutDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/ChannelOutPutDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/FileChannelBufferCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/FileChannelMapCopyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/GroupChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/GroupChatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOFileChannelTransferFormZeroCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/ScatteringAndGatheringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/ServerSelectorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/FindSumInSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/math/array/FindSumInSortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NioCopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NioCopyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ljm/resource/math/array/FindSumInSortArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ljm/resource/math/array/FindSumInSortArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ljm/resource/nio/NioCopyFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ljm/resource/nio/NioCopyFile.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GroupChatService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/GroupChatService.java">
+      <file leaf-file-name="NIOServerFileCopyDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/NIOServerFileCopyDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1051">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="360">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,59 +73,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileChannelBufferCopy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/FileChannelBufferCopy.java">
+      <file leaf-file-name="PlainNioServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/PlainNioServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="650">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LiClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/client/LiClient.java">
+      <file leaf-file-name="NIOClientFileCopyDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/NIOClientFileCopyDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
+            <state relative-caret-position="550">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupChatService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/GroupChatService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1377">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/server/ServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-802">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NIOClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOClient.java">
+      <file leaf-file-name="ZhangServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/server/ZhangServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NIOServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="475">
+              <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1459#1828#0" expanded="true" />
+                <element signature="e#1827#1828#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NIOFileChannelTransferFormZeroCopy.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOFileChannelTransferFormZeroCopy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="20" column="87" lean-forward="true" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScatteringAndGatheringTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/ScatteringAndGatheringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -175,8 +131,39 @@
       <file leaf-file-name="GroupChatClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/GroupChatClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="325">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="e#2351#2732#0" expanded="true" />
+                <element signature="e#2731#2732#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EchoServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/echoserver/EchoServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NIOClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NIOServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="35" column="70" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,12 +185,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>深度</find>
-      <find>insert</find>
-      <find>和</find>
-      <find>回文</find>
-      <find>arrayNum1.lengt</find>
-      <find>gu</find>
       <find>com.google.guava</find>
       <find>quic</find>
       <find>calculateResult&quot;</find>
@@ -228,6 +209,12 @@
       <find>socketChannel</find>
       <find>server selector count:</find>
       <find>server socket wait 1 second, no client collection</find>
+      <find>NettyServer</find>
+      <find>NettyServerHandler</find>
+      <find>喵</find>
+      <find>NioServerSocketChannel</find>
+      <find>addListener</find>
+      <find>128</find>
     </findStrings>
     <replaceStrings>
       <replace>AnyType</replace>
@@ -338,10 +325,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-12" />
+    <option name="y" value="88" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -351,8 +338,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -411,13 +398,67 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resource-release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="oio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resource-release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resource-release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="oio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resource-release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="seriali" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resource-release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resource-release" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
               <item name="nio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -735,7 +776,10 @@
       <workItem from="1660791899062" duration="1392000" />
       <workItem from="1661136547508" duration="171000" />
       <workItem from="1661136830046" duration="7272000" />
-      <workItem from="1661153081397" duration="8790000" />
+      <workItem from="1661153081397" duration="12910000" />
+      <workItem from="1661334603344" duration="241000" />
+      <workItem from="1661335377929" duration="587000" />
+      <workItem from="1665475234388" duration="543000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1634985305514</created>
@@ -748,7 +792,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1753204000" />
+    <option name="totallyTimeSpent" value="1758695000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,7 +809,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32982087" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.39240506" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -773,13 +816,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.16561182" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.78411514" visible="true" weight="0.23417722" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32982087" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.892562" visible="true" weight="0.21108742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8881857" visible="true" weight="0.21748401" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49858356" weight="0.32995737" />
-      <window_info id="Structure" order="7" sideWeight="0.10743801" side_tool="true" visible="true" weight="0.21108742" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32982087" />
+      <window_info id="Structure" order="7" sideWeight="0.11181434" side_tool="true" visible="true" weight="0.21748401" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49466667" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -789,15 +832,16 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78411514" visible="true" weight="0.23417722" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="4" sideWeight="0.5053333" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Web" order="5" sideWeight="0.35373133" side_tool="true" weight="0.26279318" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.39240506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
       <window_info anchor="right" id="jclasslib" order="4" weight="0.32995737" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.48507464" weight="0.14503817" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32982087" />
       <window_info anchor="right" id="Coverage" order="4" sideWeight="0.502907" side_tool="true" weight="0.25" />
     </layout>
   </component>
@@ -2217,27 +2261,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="376" column="36" selection-start-line="376" selection-start-column="36" selection-end-line="376" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/netty/oio/NettyOioServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="183" column="25" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/worksoft/jdk1.8/jdk/jre/lib/rt.jar!/sun/nio/ch/FileChannelImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2335,13 +2358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/PlainNioServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/net/InetSocketAddress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2426,13 +2442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NioCopyFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/io/FilterInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -2478,26 +2487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/NIOClientFileCopyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/NIOServerFileCopyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/worksoft/jdk1.8/jdk/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -2519,68 +2508,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/GroupChatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/GroupChatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1051">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/FileChannelBufferCopy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="375">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/client/LiClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
+        <state relative-caret-position="200">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/ScatteringAndGatheringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="725">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOFileChannelTransferFormZeroCopy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="250">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NioCopyFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/NIOServerFileCopyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/ScatteringAndGatheringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/PlainNioServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        <state relative-caret-position="650">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOFileChannelTransferFormZeroCopy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="20" column="87" lean-forward="true" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+        <state relative-caret-position="175">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/GroupChatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/server/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-802">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/chat/server/ZhangServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="e#1459#1828#0" expanded="true" />
+            <element signature="e#1827#1828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/io/nio/NIOClientFileCopyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/GroupChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#2351#2732#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/echoserver/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="35" column="70" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
