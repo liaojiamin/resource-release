@@ -8,8 +8,8 @@ import java.io.*;
  */
 public class CharArrayReaderDemo {
 
-    private static final String filePath = "E:\\learn\\闂姹囨�籠\MYSQL.md";
-    private static final String resultFilePath = "E:\\learn\\闂姹囨�籠\MYSQL_1.md";
+    private static final String filePath = "E:\\learn\\问题汇总\\MYSQL.md";
+    private static final String resultFilePath = "E:\\learn\\问题汇总\\MYSQL_1.md";
 
     public static void bufferInputStreamFile() throws IOException {
         FileInputStream fileInputStream = new FileInputStream(filePath);

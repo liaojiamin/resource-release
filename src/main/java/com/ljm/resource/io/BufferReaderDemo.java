@@ -7,8 +7,8 @@ import java.io.*;
  * @Date:Created in 10:36 2022/8/5
  */
 public class BufferReaderDemo {
-    private static final String filePath = "E:\\learn\\闂姹囨�籠\MYSQL.md";
-    private static final String resultFilePath = "E:\\learn\\闂姹囨�籠\MYSQL_1.md";
+    private static final String filePath = "E:\\learn\\问题汇总\\MYSQL.md";
+    private static final String resultFilePath = "E:\\learn\\问题汇总\\MYSQL_1.md";
     public static void bufferReadFile() throws IOException {
         FileInputStream fileInputStream = new FileInputStream(filePath);
         InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);

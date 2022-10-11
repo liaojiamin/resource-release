@@ -18,13 +18,13 @@ public class FileChannelMapCopyFile {
 
     public static void main(String[] args) throws FileNotFoundException {
         int BUFFER_SIZE = 1024;
-        String fileName = "E:\\learn\\é—®é¢˜æ±‡æ€»\\MYSQL.md";
+        String fileName = "E:\\learn\\ÎÊÌâ»ã×Ü\\MYSQL.md";
         long fileLength = new File(fileName).length();
         int bufferCount = 1+ (int) (fileLength / BUFFER_SIZE);
         MappedByteBuffer[] byteBuffers = new MappedByteBuffer[bufferCount];
         long remaining = fileLength;
 
-        String fileName_1 = "E:\\learn\\é—®é¢˜æ±‡æ€»\\MYSQL_1.md";
+        String fileName_1 = "E:\\learn\\ÎÊÌâ»ã×Ü\\MYSQL_1.md";
         FileOutputStream fileOutputStream = new FileOutputStream(fileName_1);
         FileChannel writeChannel = fileOutputStream.getChannel();
 
@@ -34,11 +34,11 @@ public class FileChannelMapCopyFile {
                 file = new RandomAccessFile(fileName, "r");
                 Integer size = (int)Math.min(remaining, BUFFER_SIZE);
                 /**
-                 * å‚æ•° 1:FileChannel.MapMode.READ_ONLY ä½¿ç”¨åªè¯»æ¨¡å¼
-                 * å‚æ•° 2ï¼ši * BUFFER_SIZEï¼šæœ¬æ¬¡è¯»å–æ–‡ä»¶çš„å¼€å§‹ä½ç½®
-                 * å‚æ•° 3:size: æ˜¯æ˜ å°„åˆ°å†…å­˜çš„å¤§å°ï¼ˆä¸æ˜¯ç´¢å¼•ä½ç½®ï¼‰ï¼Œå³å°† MYSQL.md çš„å¤šå°‘ä¸ªå­—èŠ‚æ˜ å°„åˆ°å†…å­˜ï¼Œæ­¤å¤„æˆ‘ä»¬æ¯æ¬¡éƒ½è¯»å–å›ºå®šä¸ªå¤§å°1024ï¼Œå½“æœ€åä¸è¶³1024æ—¶å€™ï¼Œè¯»å–å‰©ä½™çš„ remaining
-                 * å¯ä»¥ç›´æ¥ä¿®æ”¹çš„èŒƒå›´å°±æ˜¯ 0-fileLength
-                 * å®é™…ç±»å‹ DirectByteBuffer
+                 * ²ÎÊı 1:FileChannel.MapMode.READ_ONLY Ê¹ÓÃÖ»¶ÁÄ£Ê½
+                 * ²ÎÊı 2£ºi * BUFFER_SIZE£º±¾´Î¶ÁÈ¡ÎÄ¼şµÄ¿ªÊ¼Î»ÖÃ
+                 * ²ÎÊı 3:size: ÊÇÓ³Éäµ½ÄÚ´æµÄ´óĞ¡£¨²»ÊÇË÷ÒıÎ»ÖÃ£©£¬¼´½« MYSQL.md µÄ¶àÉÙ¸ö×Ö½ÚÓ³Éäµ½ÄÚ´æ£¬´Ë´¦ÎÒÃÇÃ¿´Î¶¼¶ÁÈ¡¹Ì¶¨¸ö´óĞ¡1024£¬µ±×îºó²»×ã1024Ê±ºò£¬¶ÁÈ¡Ê£ÓàµÄ remaining
+                 * ¿ÉÒÔÖ±½ÓĞŞ¸ÄµÄ·¶Î§¾ÍÊÇ 0-fileLength
+                 * Êµ¼ÊÀàĞÍ DirectByteBuffer
                  */
                 byteBuffers[i] = file.getChannel().map(FileChannel.MapMode.READ_ONLY, i * BUFFER_SIZE, size);
                 ByteBuffer byteBuffers1 = byteBuffers[i].get(new byte[size]);

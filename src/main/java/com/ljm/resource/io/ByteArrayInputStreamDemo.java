@@ -10,8 +10,8 @@ import static com.ljm.resource.io.BufferReaderDemo.bufferReadFile;
  * @Date:Created in 14:04 2022/8/5
  */
 public class ByteArrayInputStreamDemo {
-    private static final String filePath = "E:\\learn\\闂姹囨�籠\MYSQL.md";
-    private static final String resultFilePath = "E:\\learn\\闂姹囨�籠\MYSQL_1.md";
+    private static final String filePath = "E:\\learn\\问题汇总\\MYSQL.md";
+    private static final String resultFilePath = "E:\\learn\\问题汇总\\MYSQL_1.md";
 
     public static void byteArrayInputStream() throws IOException {
         FileInputStream fileInputStream = new FileInputStream(filePath);

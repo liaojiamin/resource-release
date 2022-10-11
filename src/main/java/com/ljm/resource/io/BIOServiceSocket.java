@@ -13,7 +13,7 @@ import java.util.concurrent.ScheduledThreadPoolExecutor;
  * @Date:Created in 11:03 2022/8/16
  */
 public class BIOServiceSocket {
-    private static final String resultFilePath = "E:\\learn\\é—®é¢˜æ±‡æ€»\\MYSQL_1.md";
+    private static final String resultFilePath = "E:\\learn\\ÎÊÌâ»ã×Ü\\MYSQL_1.md";
 
     public static void main(String[] args) throws IOException {
 //        ExecutorService newCachedThreadPool = Executors.newCachedThreadPool();
