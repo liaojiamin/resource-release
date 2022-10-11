@@ -8,6 +8,8 @@ import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
+import java.util.Set;
+
 
 /**
  * @author liaojiamin
@@ -18,33 +20,35 @@ public class NIOServer {
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
 
         Selector selector = Selector.open();
-
-        serverSocketChannel.socket().bind(new InetSocketAddress("127.0.0.1", 6666));
         serverSocketChannel.configureBlocking(false);
+        serverSocketChannel.socket().bind(new InetSocketAddress("127.0.0.1", 6666));
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
-        while (true){
-            if(selector.select(1000) <= 0){
-                System.out.println("server wait 1 second ,no connection");
+        while (true) {
+            if (selector.select(1000) == 0) {
+                System.out.println("service wait 1 second, no connection");
                 continue;
             }
-            Iterator<SelectionKey> keyIterator = selector.selectedKeys().iterator();
-            while (keyIterator.hasNext()){
-                SelectionKey selectionKey = keyIterator.next();
-                if(selectionKey.isAcceptable()){
+            Set<SelectionKey> selectionKeySet = selector.selectedKeys();
+            Iterator<SelectionKey> iterator = selectionKeySet.iterator();
+            while (iterator.hasNext()) {
+                SelectionKey selectionKey = iterator.next();
+                if (selectionKey.isAcceptable()) {
                     SocketChannel socketChannel = serverSocketChannel.accept();
-                    System.out.println("client connection success  create socketChannel: "+ socketChannel.hashCode());
+                    System.out.println("server connection client socketChannel: " + socketChannel.hashCode());
                     socketChannel.configureBlocking(false);
                     socketChannel.register(selector, SelectionKey.OP_READ, ByteBuffer.allocate(1024));
-                }else if(selectionKey.isReadable()){
+                }
+                if (selectionKey.isReadable()) {
                     SocketChannel socketChannel = (SocketChannel) selectionKey.channel();
                     ByteBuffer byteBuffer = (ByteBuffer) selectionKey.attachment();
                     socketChannel.read(byteBuffer);
-                    System.out.println("client send data : "+ new String(byteBuffer.array()));
+                    System.out.println("from client data : " + new String(byteBuffer.array()));
                 }
-                keyIterator.remove();
+                iterator.remove();
             }
 
         }
     }
+
 }

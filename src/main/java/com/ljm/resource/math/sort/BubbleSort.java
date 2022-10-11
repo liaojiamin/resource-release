@@ -81,7 +81,7 @@ public class BubbleSort {
 
     /**
      * 时间复杂度O(n), 空间复杂度O(n+k)
-     * 从小到大通排序
+     * 从小到大桶排序
      *
      * @author: liaojiamin
      * @date: 18:09 2020/11/16
