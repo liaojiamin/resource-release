@@ -13,7 +13,7 @@ public class Permutation {
 
     public static void main(String[] args) {
         permutationArray("ertgf");
-        combination("abcde".toCharArray());
+//        combination("abcde".toCharArray());
     }
 
     public static void permutationArray(String arr) {
