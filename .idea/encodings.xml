@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/io/BIOClientSocket.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/io/BIOServiceSocket.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/io/BufferReaderDemo.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/io/BufferedInputStreamDemo.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/io/ByteArrayInputStreamDemo.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/io/CharArrayReaderDemo.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/io/FileReadDemo.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/jvm/vo/FmResult.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/math/binary/BuildGenerateTrees.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/shangguigu/NettyServer.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/ChannelInPutDemo.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/ChannelOutPutDemo.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/FileChannelBufferCopy.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/FileChannelMapCopyFile.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NIOFileChannelTransferFormZeroCopy.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/nio/NioCopyFile.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
