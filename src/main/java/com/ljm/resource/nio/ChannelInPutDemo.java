@@ -11,7 +11,7 @@ import java.nio.channels.FileChannel;
  * @Date:Created in 16:06 2022/8/16
  */
 public class ChannelInPutDemo {
-    private static final String filePath = "E:\\learn\\é—®é¢˜æ±‡æ€»\\MYSQL.md";
+    private static final String filePath = "E:\\learn\\ÎÊÌâ»ã×Ü\\MYSQL.md";
     public static void main(String[] args) throws IOException {
         File file = new File(filePath);
         FileInputStream fileInputStream = new FileInputStream(file);

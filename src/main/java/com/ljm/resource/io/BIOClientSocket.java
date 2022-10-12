@@ -8,7 +8,7 @@ import java.net.Socket;
  * @Date:Created in 11:04 2022/8/16
  */
 public class BIOClientSocket {
-    private static final String filePath = "E:\\learn\\é—®é¢˜æ±‡æ€»\\MYSQL.md";
+    private static final String filePath = "E:\\learn\\ÎÊÌâ»ã×Ü\\MYSQL.md";
     public static void main(String[] args) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(filePath);
         BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);

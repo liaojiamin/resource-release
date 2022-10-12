@@ -5,23 +5,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 鏂囦欢璇诲彇鏂瑰紡鎬荤粨
+ * 文件读取方式总结
  *
  * @author liaojiamin
  * @Date:Created in 16:16 2021/7/22
  */
 public class FileReadDemo {
     public static void main(String[] args) {
-        List<String> fileArray = readFileToArray("E:\\learn\\闂姹囨�籠\MYSQL.md");
+        List<String> fileArray = readFileToArray("E:\\learn\\问题汇总\\MYSQL.md");
         fileArray.forEach(System.out::println);
-        List<String> fileArray2 = inputStreamReaderToArray("E:\\learn\\闂姹囨�籠\MYSQL.md");
+        List<String> fileArray2 = inputStreamReaderToArray("E:\\learn\\问题汇总\\MYSQL.md");
         fileArray2.forEach(System.out::println);
     }
 
 
 
     /**
-     * FileInputStream ->  InputStreamReader -> BufferedReader 璇诲彇鏂囦欢
+     * FileInputStream ->  InputStreamReader -> BufferedReader 读取文件
      * */
     public static List<String> inputStreamReaderToArray(String filePath) {
         if (filePath == null) {
@@ -59,7 +59,7 @@ public class FileReadDemo {
         return resultList;
     }
     /**
-     * FileReader -> BufferReader 璇诲彇鏂囦欢
+     * FileReader -> BufferReader 读取文件
      * */
     public static List<String> readFileToArray(String filePath) {
         if (filePath == null) {

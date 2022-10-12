@@ -13,8 +13,8 @@ import java.nio.channels.FileChannel;
  * @Date:Created in 18:14 2022/8/16
  */
 public class FileChannelBufferCopy {
-    private static final String filePath = "E:\\learn\\闂姹囨�籠\MYSQL.md";
-    private static final String filePathResult = "E:\\learn\\闂姹囨�籠\MYSQL_1.md";
+    private static final String filePath = "E:\\learn\\问题汇总\\MYSQL.md";
+    private static final String filePathResult = "E:\\learn\\问题汇总\\MYSQL_1.md";
     public static void main(String[] args) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(filePath);
         FileOutputStream fileOutputStream = new FileOutputStream(filePathResult);
