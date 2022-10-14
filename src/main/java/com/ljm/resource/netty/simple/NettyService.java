@@ -24,7 +24,8 @@ public class NettyService {
                         //给pipeline 设置处理器
                         @Override
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
-                            socketChannel.pipeline().addLast(new NettyServerHandler());
+                            System.out.println("客户端 SocketChannel hashCode： "+ socketChannel.hashCode());
+                            socketChannel.pipeline().addLast(new NettyServerSchedulerReadHandler());
                         }
                     });
             System.out.println(" ..... Service is ready");
