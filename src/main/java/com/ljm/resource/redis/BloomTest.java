@@ -20,6 +20,8 @@ public class BloomTest {
         pipe.incr("books");
         Response<List<Object>> value = pipe.exec();
         pipe.close();
+        String countBooks = jedis.get("books");
         System.out.println(value.get());
+        System.out.println(countBooks);
     }
 }

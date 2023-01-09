@@ -48,7 +48,7 @@ public class GraphTopLogicalSort {
             v.setDist(i);
             for (Vertex vertex : v.getVertexList()) {
                 //更新V节点相邻节点中所有信息
-                vertex.getInsertVertexList().remove(v);
+                vertex.getVertexList().remove(v);
             }
         }
     }

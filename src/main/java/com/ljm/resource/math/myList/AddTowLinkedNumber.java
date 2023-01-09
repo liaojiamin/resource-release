@@ -35,6 +35,7 @@ public class AddTowLinkedNumber {
         MyLinkedList.print(addTwoNumber(listNode, listNode2));
     }
 
+
     public static ListNode addTwoNumber(ListNode l1, ListNode l2) {
         if (l1 == null && l2 == null) {
             return null;

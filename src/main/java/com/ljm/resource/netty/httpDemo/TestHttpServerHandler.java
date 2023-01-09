@@ -22,7 +22,7 @@ public class TestHttpServerHandler extends SimpleChannelInboundHandler<HttpObjec
 
         if(msg instanceof HttpRequest){
             System.out.println("ctx类型="+ ctx.getClass());
-            System.out.println("pipeline hashCode"+ ctx.pipeline().hashCode()
+            System.out.println("pipeline hashCode="+ ctx.pipeline().hashCode()
                     + " TestHttpServerHandler hash=" + this.hashCode());
             System.out.println("msg 类型+"+ msg.getClass());
             System.out.println("客户端地址"+ctx.channel().remoteAddress());

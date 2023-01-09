@@ -16,7 +16,7 @@ public class JedisPoolTools {
         config.setMaxTotal(25);
         config.setMaxIdle(20);
         config.setMinIdle(5);
-        JedisPool pool = new JedisPool(config, "10.51.7.27", 6379);
+        JedisPool pool = new JedisPool(config, "10.151.2.165", 6379);
         Jedis jedis = pool.getResource();
         //登录，如果没有设置密码这段可以省略
         //jedis.auth("1234");

@@ -26,6 +26,45 @@ public class GraphShotLine {
     }
 
     /**
+     * 有权最短路径算法- 面排序
+     * */
+    public void dijkstra_no_sort(Vertex s){
+        for (Vertex vertex : vertexVraph) {
+            vertex.setDist(MAX_DIST);
+            vertex.setKnow(Boolean.FALSE);
+        }
+        s.setDist(0);
+        LinkedList<Vertex> subVertexList = new LinkedList<>();
+        subVertexList.add(s);
+        while (!subVertexList.isEmpty()){
+            Vertex smallVertex = subVertexList.removeFirst();
+            smallVertex.setKnow(Boolean.TRUE);
+            for (Vertex vertex : smallVertex.getVertexList()) {
+                Integer c_vw = vertex.getWeight();
+                if(vertex.getDist() > smallVertex.getDist() + c_vw){
+                    vertex.setDist(smallVertex.getDist() + c_vw);
+                    vertex.setPath(smallVertex);
+                    insertIntoSortLinkedList(subVertexList, vertex);
+                }
+            }
+        }
+    }
+
+    public static void  insertIntoSortLinkedList(LinkedList<Vertex> sortList, Vertex element) {
+        if (sortList.size() <= 0) {
+            sortList.add(element);
+        } else {
+            for (int i = 0; i < sortList.size(); i++) {
+                if (sortList.get(i).getDist() >= element.getDist()) {
+                    sortList.add(i, element);
+                    break;
+                }
+            }
+        }
+
+    }
+
+    /**
      * 有权重图最短路径算法
      * */
     public void dijkstra(Vertex s){
