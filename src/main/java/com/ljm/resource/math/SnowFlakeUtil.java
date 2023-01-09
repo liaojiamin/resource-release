@@ -97,7 +97,7 @@ public class SnowFlakeUtil {
     }
 
     public long getNextMillis(long lastTimeMillis){
-        long currentTimeMillis = System.currentTimeMillis();                                    bv vv bvj,hl
+        long currentTimeMillis = System.currentTimeMillis();
         while(currentTimeMillis <= lastTimeMillis){
             currentTimeMillis = System.currentTimeMillis();
         }
