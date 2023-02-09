@@ -10,8 +10,7 @@
 *.ipr
 *.iml
 *.iws
-.idea/
-/.idea
+.idea
 
 # Maven
 target/
