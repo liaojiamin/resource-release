@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="GBK">
     <title>Title</title>
 </head>
 <body>
 <script>
     var socket;
-    //åˆ¤æ–­å½“å‰æµè§ˆå™¨æ˜¯å¦æ”¯æŒwebsocket
+    //ÅĞ¶Ïµ±Ç°ä¯ÀÀÆ÷ÊÇ·ñÖ§³Öwebsocket
     if(window.WebSocket) {
         //go on
         socket = new WebSocket("ws://localhost:7000/hello2");
-        //ç›¸å½“äºchannelReado, ev æ”¶åˆ°æœåŠ¡å™¨ç«¯å›é€çš„æ¶ˆæ¯
+        //Ïàµ±ÓÚchannelReado, ev ÊÕµ½·şÎñÆ÷¶Ë»ØËÍµÄÏûÏ¢
         socket.onmessage = function (ev) {
             var rt = document.getElementById("responseText");
             rt.value = rt.value + "\n" + ev.data;
         }
 
-        //ç›¸å½“äºè¿æ¥å¼€å¯(æ„ŸçŸ¥åˆ°è¿æ¥å¼€å¯)
+        //Ïàµ±ÓÚÁ¬½Ó¿ªÆô(¸ĞÖªµ½Á¬½Ó¿ªÆô)
         socket.onopen = function (ev) {
             var rt = document.getElementById("responseText");
-            rt.value = "è¿æ¥å¼€å¯äº†.."
+            rt.value = "Á¬½Ó¿ªÆôÁË.."
         }
 
-        //ç›¸å½“äºè¿æ¥å…³é—­(æ„ŸçŸ¥åˆ°è¿æ¥å…³é—­)
+        //Ïàµ±ÓÚÁ¬½Ó¹Ø±Õ(¸ĞÖªµ½Á¬½Ó¹Ø±Õ)
         socket.onclose = function (ev) {
 
             var rt = document.getElementById("responseText");
-            rt.value = rt.value + "\n" + "è¿æ¥å…³é—­äº†.."
+            rt.value = rt.value + "\n" + "Á¬½Ó¹Ø±ÕÁË.."
         }
     } else {
-        alert("å½“å‰æµè§ˆå™¨ä¸æ”¯æŒwebsocket")
+        alert("µ±Ç°ä¯ÀÀÆ÷²»Ö§³Öwebsocket")
     }
 
-    //å‘é€æ¶ˆæ¯åˆ°æœåŠ¡å™¨
+    //·¢ËÍÏûÏ¢µ½·şÎñÆ÷
     function send(message) {
-        if(!window.socket) { //å…ˆåˆ¤æ–­socketæ˜¯å¦åˆ›å»ºå¥½
+        if(!window.socket) { //ÏÈÅĞ¶ÏsocketÊÇ·ñ´´½¨ºÃ
             return;
         }
         if(socket.readyState == WebSocket.OPEN) {
-            //é€šè¿‡socket å‘é€æ¶ˆæ¯
+            //Í¨¹ısocket ·¢ËÍÏûÏ¢
             socket.send(message)
         } else {
-            alert("è¿æ¥æ²¡æœ‰å¼€å¯");
+            alert("Á¬½ÓÃ»ÓĞ¿ªÆô");
         }
     }
 </script>
 <form onsubmit="return false">
     <textarea name="message" style="height: 300px; width: 300px"></textarea>
-    <input type="button" value="å‘ç”Ÿæ¶ˆæ¯" onclick="send(this.form.message.value)">
+    <input type="button" value="·¢ÉúÏûÏ¢" onclick="send(this.form.message.value)">
     <textarea id="responseText" style="height: 300px; width: 300px"></textarea>
-    <input type="button" value="æ¸…ç©ºå†…å®¹" onclick="document.getElementById('responseText').value=''">
+    <input type="button" value="Çå¿ÕÄÚÈİ" onclick="document.getElementById('responseText').value=''">
 </form>
 </body>
 </html>

@@ -22,6 +22,11 @@
             <version>20.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.21.12</version>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.db4j/kilim -->
         <dependency>
