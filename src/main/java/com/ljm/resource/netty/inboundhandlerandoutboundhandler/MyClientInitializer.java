@@ -3,7 +3,6 @@ package com.ljm.resource.netty.inboundhandlerandoutboundhandler;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
-import redis.clients.jedis.Pipeline;
 
 
 /**
@@ -16,6 +15,8 @@ public class MyClientInitializer extends ChannelInitializer<SocketChannel>{
         ChannelPipeline pipeline = ch.pipeline();
         //加入一个出站handler对数据进行编码
         pipeline.addLast(new MyLongToByteEncoder());
+        //添加一个入站的解码器
+        pipeline.addLast(new MyByteToLongDecoder2());
         //加入一个自定义handler，处理业务
         pipeline.addLast(new MyClientHandler());
         System.out.println("处理器添加完成");

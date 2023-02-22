@@ -8,8 +8,63 @@
     <artifactId>resource-release</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    ﻿
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <retrofit2.version>2.9.0</retrofit2.version>
+    </properties>
+
 
     <dependencies>
+        <!-- openAi-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.13.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>retrofit</artifactId>
+            <version>${retrofit2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>converter-jackson</artifactId>
+            <version>${retrofit2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>adapter-rxjava2</artifactId>
+            <version>${retrofit2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.4</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- other jar-->
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
@@ -27,7 +82,6 @@
             <artifactId>protobuf-java</artifactId>
             <version>3.21.12</version>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.db4j/kilim -->
         <dependency>
             <groupId>org.db4j</groupId>
@@ -35,18 +89,10 @@
             <version>2.0.1</version>
         </dependency>
 
-
-        <!-- https://mvnrepository.com/artifact/nio/nio -->
-        <!--<dependency>-->
-            <!--<groupId>nio</groupId>-->
-            <!--<artifactId>nio</artifactId>-->
-            <!--<version>1.0.4</version>-->
-        <!--</dependency>-->
-
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.9.Final</version>
+            <version>4.1.20.Final</version>
         </dependency>
 
         <dependency>
@@ -115,8 +161,32 @@
             <artifactId>kryo</artifactId>
             <version>5.0.0-RC4</version>
         </dependency>
+        <!--log4j-->
 
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.25</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.25</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -125,7 +195,9 @@
                 <version>2.0.1</version>
                 <executions>
                     <execution>
-                        <goals><goal>weave</goal></goals>
+                        <goals>
+                            <goal>weave</goal>
+                        </goals>
                     </execution>
                 </executions>
             </plugin>

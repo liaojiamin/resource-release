@@ -9,7 +9,9 @@ import io.netty.channel.SimpleChannelInboundHandler;
 public class MyServerHandler extends SimpleChannelInboundHandler<Long> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Long msg) throws Exception {
-        System.out.println("从客户端" + ctx.channel().remoteAddress() + "读取到log" + msg);
+        System.out.println("从客户端" + ctx.channel().remoteAddress() + "读取到log: " + msg);
+        //给客户端发送数据Long
+        ctx.writeAndFlush(98765L);
     }
 
     @Override
