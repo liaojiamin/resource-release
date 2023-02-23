@@ -1,9 +1,10 @@
-package com.ljm.resource.netty.groupchat;
+package com.ljm.resource.netty.contexttest;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
+import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
@@ -11,22 +12,16 @@ import io.netty.handler.codec.string.StringEncoder;
 import java.util.Scanner;
 
 /**
- * Created by jiamin5 on 2022/11/29.
+ * @author liaojiamin
+ * @Date:Created in 17:40 2023/2/23
  */
-public class GroupChatClient {
-    private final String host;
-    private final int port;
+public class NettyContextTestClient {
 
-    public GroupChatClient(String host, int port) {
-        this.host = host;
-        this.port = port;
-    }
-
-    public void run() throws Exception {
+    public static void main(String[] args) {
         EventLoopGroup group = new NioEventLoopGroup();
         try{
-            Bootstrap bootstrap = new Bootstrap()
-                    .group(group)
+            Bootstrap bootstrap = new Bootstrap();
+            bootstrap.group(group)
                     .channel(NioSocketChannel.class)
                     .handler(new ChannelInitializer<SocketChannel>() {
                         @Override
@@ -34,25 +29,21 @@ public class GroupChatClient {
                             ChannelPipeline pipeline = ch.pipeline();
                             pipeline.addLast("decoder", new StringDecoder());
                             pipeline.addLast("encoder", new StringEncoder());
-                            pipeline.addLast(new GroupChatClientHandler());
+                            pipeline.addLast(new NettyCientContextHandlerTest());
                         }
                     });
-            ChannelFuture channelFuture = bootstrap.connect(host, port).sync();
+            ChannelFuture channelFuture = bootstrap.connect("127.0.0.1", 7000).sync();
             Channel channel = channelFuture.channel();
             System.out.println("--------" + channel.localAddress() + "--------");
             Scanner scanner = new Scanner(System.in);
             while (scanner.hasNextLine()){
-                String msg = scanner.nextLine();
-                channel.writeAndFlush(msg + "\r\n");
+                String msg = scanner.next();
+                channel.writeAndFlush(msg);
             }
         }catch (Exception e){
-        } finally{
             group.shutdownGracefully();
+        }finally {
+
         }
-    }
-
-    public static void main(String[] args) throws Exception {
-        new GroupChatClient("127.0.0.1", 7000).run();
-
     }
 }
