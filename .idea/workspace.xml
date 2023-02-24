@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37aa6f26-0339-455a-9d9f-078cdcfc9990" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/unfbx/chatgpt/OpenAiClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/unfbx/chatgpt/OpenAiClientTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,62 +29,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DefaultChannelPipeline.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+      <file leaf-file-name="AbstractChannel.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="45" column="56" lean-forward="false" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+            <state relative-caret-position="140">
+              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+              <folding>
+                <element signature="e#4718#4719#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NioEventLoop.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="645" column="13" lean-forward="true" selection-start-line="645" selection-start-column="13" selection-end-line="645" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChannelPipeline.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
+      <file leaf-file-name="AbstractNioMessageChannel.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="607" column="0" lean-forward="true" selection-start-line="607" selection-start-column="0" selection-end-line="607" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatGPTClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/unfbx/chatgpt/ChatGPTClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-214">
-              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenAiClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/unfbx/chatgpt/OpenAiClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-714">
-              <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenAiApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/unfbx/chatgpt/OpenAiApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-660">
-              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenAiClientTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/unfbx/chatgpt/OpenAiClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="111" column="18" lean-forward="true" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="234">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding>
+                <element signature="e#1962#1970#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,39 +66,8 @@
       <file leaf-file-name="DefaultChannelPipeline.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="1417" column="0" lean-forward="true" selection-start-line="1417" selection-start-column="0" selection-end-line="1417" selection-end-column="0" />
-              <folding>
-                <element signature="e#6208#6209#0" expanded="true" />
-                <element signature="e#6260#6261#0" expanded="true" />
-                <element signature="e#7904#7905#0" expanded="true" />
-                <element signature="e#7955#7956#0" expanded="true" />
-                <element signature="e#8933#9110#0" expanded="true" />
-                <element signature="e#9109#9110#0" expanded="true" />
-                <element signature="e#13431#13432#0" expanded="true" />
-                <element signature="e#13477#13478#0" expanded="true" />
-                <element signature="e#14455#14456#0" expanded="true" />
-                <element signature="e#14501#14502#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelTrafficShapingHandler.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/traffic/ChannelTrafficShapingHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="130" column="16" lean-forward="false" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelInitializer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="98" column="16" lean-forward="false" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+            <state relative-caret-position="144">
+              <caret line="1412" column="0" lean-forward="false" selection-start-line="1412" selection-start-column="0" selection-end-line="1412" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,8 +76,67 @@
       <file leaf-file-name="AbstractChannelHandlerContext.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+            <state relative-caret-position="129">
+              <caret line="347" column="0" lean-forward="false" selection-start-line="347" selection-start-column="0" selection-end-line="347" selection-end-column="0" />
+              <folding>
+                <element signature="e#11950#12107#0" expanded="true" />
+                <element signature="e#12106#12107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChannelHandlerContext.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="146" column="19" lean-forward="false" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultChannelHandlerContext.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <folding>
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EchoClientHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/source/echo/EchoClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EchoServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/source/echo/EchoServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="67" column="42" lean-forward="false" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+              <folding>
+                <element signature="e#2366#2861#0" expanded="true" />
+                <element signature="e#2860#2861#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggingHandler.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,8 +155,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>netty</find>
-      <find>openServerSocketChannel</find>
       <find>unsafe</find>
       <find>NioServerSocketChannelConfig</find>
       <find>NioMess</find>
@@ -165,7 +163,6 @@
       <find>chooser</find>
       <find>channelFactory</find>
       <find>OP_READ</find>
-      <find>runAllTasks</find>
       <find>channelActive</find>
       <find>pipeline</find>
       <find>processSelectedKeys</find>
@@ -185,6 +182,9 @@
       <find>addlast</find>
       <find>fireChannelRead</find>
       <find>addLast</find>
+      <find>runAllTasks</find>
+      <find>runAllTask</find>
+      <find>channrlRead</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -376,6 +376,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource-release" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.netty:netty-all:4.1.20.Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty-all-4.1.20.Final.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource-release" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.netty:netty-all:4.1.20.Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty-all-4.1.20.Final.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource-release" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.netty:netty-all:4.1.20.Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty-all-4.1.20.Final.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="channel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource-release" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resource-release" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -447,154 +523,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource-release" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource-release" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource-release" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource-release" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="completions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource-release" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource-release" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource-release" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource-release" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -716,7 +644,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="DefaultChannelPipeline&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;TailContext&#9;PSI&#9;JAVA://io.netty.channel.DefaultChannelPipeline.TailContext&#10;Abs&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java&#10;AbstractChannel&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java&#10;SocketChannel&#9;PSI&#9;JAVA://io.netty.channel.socket.SocketChannel&#10;ChannelHandlerContext&#9;PSI&#9;JAVA://io.netty.channel.ChannelHandlerContext&#10;DefaultChannelPi&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;DefaultChannelPip&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;Default&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;ChannelDu&#9;PSI&#9;JAVA://io.netty.channel.ChannelDuplexHandler&#10;ChannelHandler&#9;PSI&#9;JAVA://io.netty.channel.ChannelHandler&#10;ServerBootAcceptor&#9;PSI&#9;JAVA://io.netty.bootstrap.ServerBootstrap.ServerBootstrapAcceptor&#10;executionMask&#9;null&#9;null&#10;DefaultChannelHandlerContex&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java&#10;ServerBootS&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java&#10;AbstractNioByteChannel&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java&#10;EventLoop&#9;PSI&#9;JAVA://io.netty.channel.EventLoop&#10;NioEventLoop&#9;PSI&#9;JAVA://io.netty.channel.nio.NioEventLoop&#10;NioServerSocket&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java&#10;NioMessageUnsafe&#9;PSI&#9;JAVA://io.netty.channel.nio.AbstractNioMessageChannel.NioMessageUnsafe&#10;NioServerSocketChann&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java&#10;Selectorpro&#9;PSI&#9;JAVA://java.nio.channels.spi.SelectorProvider&#10;ReflectiveChannelFactory&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ReflectiveChannelFactory.java&#10;Zlib&#9;PSI&#9;JAVA://io.netty.handler.codec.compression.ZlibEncoder&#10;Replaying&#9;PSI&#9;JAVA://io.netty.handler.codec.ReplayingDecoder&#10;SocksMessageEn&#9;PSI&#9;JAVA://io.netty.handler.codec.socks.SocksMessageEncoder&#10;MessageToByteEn&#9;PSI&#9;JAVA://io.netty.handler.codec.MessageToByteEncoder&#10;ChannelHandlerAdapter&#9;PSI&#9;JAVA://io.netty.channel.ChannelHandlerAdapter&#10;plugs&#9;PSI&#9;JAVA://com.sun.deploy.config.PluginServerConfig&#10;AtomicRe&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicReference&#10;padded&#9;PSI&#9;JAVA://kilim.concurrent.PaddedEventSubscriber&#10;LinkedTra&#9;PSI&#9;JAVA://java.util.concurrent.LinkedTransferQueue&#10;LInked&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar!/java/util/LinkedList.class&#10;LinkedLIst&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar!/java/util/LinkedList.class&#10;CopyOnwriteArrayList&#9;PSI&#9;JAVA://java.util.concurrent.CopyOnWriteArrayList&#10;CopyOnright&#9;null&#9;null&#10;SimpleChannelInboundHandler&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java&#10;TestHttpSer&#9;FILE&#9;file:///Users/jiamin/myCode/resource-release/src/main/java/com/ljm/resource/netty/httpDemo/TestHttpServerHandler.java&#10;ConverListToBinary&#9;PSI&#9;JAVA://com.ljm.resource.math.binary.ConverListToBinary" />
+    <property name="SearchEverywhereHistoryKey" value="NioE&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java&#10;DefaultChannelPipeline&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;NioEventLoop&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java&#10;EventLoop&#9;PSI&#9;JAVA://io.netty.channel.EventLoopException&#10;TailContext&#9;PSI&#9;JAVA://io.netty.channel.DefaultChannelPipeline.TailContext&#10;Abs&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java&#10;AbstractChannel&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java&#10;SocketChannel&#9;PSI&#9;JAVA://io.netty.channel.socket.SocketChannel&#10;ChannelHandlerContext&#9;PSI&#9;JAVA://io.netty.channel.ChannelHandlerContext&#10;DefaultChannelPi&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;DefaultChannelPip&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;Default&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java&#10;ChannelDu&#9;PSI&#9;JAVA://io.netty.channel.ChannelDuplexHandler&#10;ChannelHandler&#9;PSI&#9;JAVA://io.netty.channel.ChannelHandler&#10;ServerBootAcceptor&#9;PSI&#9;JAVA://io.netty.bootstrap.ServerBootstrap.ServerBootstrapAcceptor&#10;executionMask&#9;null&#9;null&#10;DefaultChannelHandlerContex&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java&#10;ServerBootS&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java&#10;AbstractNioByteChannel&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java&#10;NioServerSocket&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java&#10;NioMessageUnsafe&#9;PSI&#9;JAVA://io.netty.channel.nio.AbstractNioMessageChannel.NioMessageUnsafe&#10;NioServerSocketChann&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java&#10;Selectorpro&#9;PSI&#9;JAVA://java.nio.channels.spi.SelectorProvider&#10;ReflectiveChannelFactory&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ReflectiveChannelFactory.java&#10;Zlib&#9;PSI&#9;JAVA://io.netty.handler.codec.compression.ZlibEncoder&#10;Replaying&#9;PSI&#9;JAVA://io.netty.handler.codec.ReplayingDecoder&#10;SocksMessageEn&#9;PSI&#9;JAVA://io.netty.handler.codec.socks.SocksMessageEncoder&#10;MessageToByteEn&#9;PSI&#9;JAVA://io.netty.handler.codec.MessageToByteEncoder&#10;ChannelHandlerAdapter&#9;PSI&#9;JAVA://io.netty.channel.ChannelHandlerAdapter&#10;plugs&#9;PSI&#9;JAVA://com.sun.deploy.config.PluginServerConfig&#10;AtomicRe&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicReference&#10;padded&#9;PSI&#9;JAVA://kilim.concurrent.PaddedEventSubscriber&#10;LinkedTra&#9;PSI&#9;JAVA://java.util.concurrent.LinkedTransferQueue&#10;LInked&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar!/java/util/LinkedList.class&#10;LinkedLIst&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar!/java/util/LinkedList.class&#10;CopyOnwriteArrayList&#9;PSI&#9;JAVA://java.util.concurrent.CopyOnWriteArrayList&#10;CopyOnright&#9;null&#9;null&#10;SimpleChannelInboundHandler&#9;FILE&#9;jar:///Users/jiamin/.m2/repository/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java&#10;TestHttpSer&#9;FILE&#9;file:///Users/jiamin/myCode/resource-release/src/main/java/com/ljm/resource/netty/httpDemo/TestHttpServerHandler.java&#10;ConverListToBinary&#9;PSI&#9;JAVA://com.ljm.resource.math.binary.ConverListToBinary" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -736,7 +664,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/protocoltcp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OpenAiClientTest.genImages">
+  <component name="RunManager" selected="Application.EchoServer">
     <configuration default="false" name="OpenAiClientTest.completions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1427,8 +1355,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.OpenAiClientTest.genImages" />
-        <item index="1" class="java.lang.String" itemvalue="Application.EchoServer" />
+        <item index="0" class="java.lang.String" itemvalue="Application.EchoServer" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OpenAiClientTest.genImages" />
         <item index="2" class="java.lang.String" itemvalue="Application.ChannelHandlerMaskStateProperty" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.OpenAiClientTest.genImagesV2" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.OpenAiClientTest.completions" />
@@ -1483,7 +1411,7 @@
       <workItem from="1676897753568" duration="6692000" />
       <workItem from="1676948411739" duration="1241000" />
       <workItem from="1677033220594" duration="1178000" />
-      <workItem from="1677034542999" duration="13400000" />
+      <workItem from="1677034542999" duration="19046000" />
     </task>
     <servers />
   </component>
@@ -1520,7 +1448,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198957000" />
+    <option name="totallyTimeSpent" value="204603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1548,16 +1476,16 @@
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41315135" sideWeight="0.8290415" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3548387" sideWeight="0.8290415" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10323383" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47022334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5086849" sideWeight="0.6081731" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27915633" sideWeight="0.7288984" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27825466" sideWeight="0.3886097" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5086849" sideWeight="0.6081731" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1191067" sideWeight="0.7288984" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27825466" sideWeight="0.3886097" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.348226" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1952,12 +1880,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
-          <line>84</line>
-          <properties />
-          <option name="timeStamp" value="264" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
           <line>117</line>
           <properties />
           <option name="timeStamp" value="268" />
@@ -1980,11 +1902,71 @@
           <properties />
           <option name="timeStamp" value="271" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java</url>
+          <line>942</line>
+          <properties />
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java</url>
+          <line>644</line>
+          <properties />
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>344</line>
+          <properties />
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>361</line>
+          <properties />
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>347</line>
+          <properties />
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/source/echo/EchoClientHandler.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java</url>
+          <line>240</line>
+          <properties />
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="272" />
+      <option name="time" value="284" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1993,688 +1975,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="503" column="0" lean-forward="false" selection-start-line="503" selection-start-column="0" selection-end-line="503" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ChannelInboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="217" column="31" lean-forward="true" selection-start-line="217" selection-start-column="31" selection-end-line="217" selection-end-column="31" />
-          <folding>
-            <element signature="e#8610#8940#0" expanded="false" />
-            <element signature="e#8939#8940#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/SingleThreadEventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="86" column="37" lean-forward="true" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="504" column="36" lean-forward="false" selection-start-line="504" selection-start-column="36" selection-end-line="504" selection-end-column="36" />
-          <folding>
-            <element signature="e#13930#14120#0" expanded="false" />
-            <element signature="e#14119#14120#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="e#1113#1114#0" expanded="false" />
-            <element signature="e#1143#1144#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2702">
-          <caret line="391" column="7" lean-forward="false" selection-start-line="391" selection-start-column="7" selection-end-line="391" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/source/echo/ChannelHandlerMaskStateProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ChannelHandlerMask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="144" column="66" lean-forward="false" selection-start-line="144" selection-start-column="66" selection-end-line="144" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.ljm.project:resource-release:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.ljm.project:resource-release:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="20.0" y="1064.7125">com.ljm.project:resource-release:1.0-SNAPSHOT</node>
-            <node x="271.0" y="1086.8839409267985">org.projectlombok:lombok:jar:1.18.24</node>
-            <node x="842.0" y="1278.7114592418166">org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="240.0" y="804.4303694982268">com.fasterxml.jackson.core:jackson-databind:jar:2.13.3</node>
-            <node x="488.5" y="754.0722011454151">com.fasterxml.jackson.core:jackson-databind:jar:2.13.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.13.3</node>
-            <node x="512.0" y="823.0722011454151">com.fasterxml.jackson.core:jackson-databind:jar:2.13.3/com.fasterxml.jackson.core:jackson-core:jar:2.13.3</node>
-            <node x="264.0" y="565.3470361648934">cn.hutool:hutool-all:jar:5.8.12</node>
-            <node x="530.5" y="1548.259701145415">com.squareup.retrofit2:retrofit:jar:2.9.0</node>
-            <node x="846.5" y="1548.259701145415">com.squareup.retrofit2:retrofit:jar:2.9.0/com.squareup.okhttp3:okhttp:jar:3.14.9</node>
-            <node x="1129.0" y="1548.259701145415">com.squareup.retrofit2:retrofit:jar:2.9.0/com.squareup.okhttp3:okhttp:jar:3.14.9/com.squareup.okio:okio:jar:1.17.2</node>
-            <node x="237.5" y="1486.509701145415">com.squareup.retrofit2:converter-jackson:jar:2.9.0</node>
-            <node x="498.5" y="1479.259701145415">com.squareup.retrofit2:converter-jackson:jar:2.9.0/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1</node>
-            <node x="245.0" y="1644.300327053898">com.squareup.retrofit2:adapter-rxjava2:jar:2.9.0</node>
-            <node x="534.0" y="1686.259701145415">com.squareup.retrofit2:adapter-rxjava2:jar:2.9.0/io.reactivex.rxjava2:rxjava:jar:2.0.0</node>
-            <node x="500.5" y="1617.259701145415">com.squareup.retrofit2:adapter-rxjava2:jar:2.9.0/org.reactivestreams:reactive-streams:jar:1.0.3</node>
-            <node x="280.0" y="735.4303694982268">junit:junit:jar:4.4</node>
-            <node x="261.5" y="1017.8839409267983">org.apache.zookeeper:zookeeper:jar:3.5.8</node>
-            <node x="505.5" y="977.7597011454151">org.apache.zookeeper:zookeeper:jar:3.5.8/org.apache.zookeeper:zookeeper-jute:jar:3.5.8</node>
-            <node x="799.5" y="965.2597011454151">org.apache.zookeeper:zookeeper:jar:3.5.8/org.apache.yetus:audience-annotations:jar:0.5.0</node>
-            <node x="510.0" y="892.0722011454151">org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final</node>
-            <node x="1501.0" y="952.2675889586601">org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-common:jar:4.1.48.Final</node>
-            <node x="1302.0" y="921.1012028315602">org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-resolver:jar:4.1.48.Final</node>
-            <node x="1307.5" y="975.2625">org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-buffer:jar:4.1.48.Final</node>
-            <node x="1094.0" y="965.2597011454151">org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-transport:jar:4.1.48.Final</node>
-            <node x="829.5" y="901.6722011454151">org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-codec:jar:4.1.48.Final</node>
-            <node x="465.0" y="1048.009701145415">org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-transport-native-epoll:jar:4.1.48.Final</node>
-            <node x="752.0" y="1041.784701145415">org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-transport-native-epoll:jar:4.1.48.Final/io.netty:netty-transport-native-unix-common:jar:4.1.48.Final</node>
-            <node x="275.0" y="917.6489592418164">com.google.guava:guava:jar:20.0</node>
-            <node x="251.0" y="1204.509701145415">com.google.protobuf:protobuf-java:jar:3.21.12</node>
-            <node x="280.0" y="1755.259701145415">org.db4j:kilim:jar:2.0.1</node>
-            <node x="524.5" y="1755.259701145415">org.db4j:kilim:jar:2.0.1/org.ow2.asm:asm-tree:jar:7.0</node>
-            <node x="854.5" y="1755.259701145415">org.db4j:kilim:jar:2.0.1/org.ow2.asm:asm-tree:jar:7.0/org.ow2.asm:asm:jar:7.0</node>
-            <node x="268.0" y="0.0">io.netty:netty-all:jar:4.1.20.Final</node>
-            <node x="267.0" y="496.34703616489344">org.javassist:javassist:jar:3.27.0-GA</node>
-            <node x="243.0" y="1417.509701145415">org.apache.commons:commons-pool2:jar:2.8.0</node>
-            <node x="279.0" y="358.34703616489344">cglib:cglib:jar:3.3.0</node>
-            <node x="539.5" y="358.34703616489344">cglib:cglib:jar:3.3.0/org.ow2.asm:asm:jar:7.1</node>
-            <node x="275.5" y="1273.509701145415">io.reactivex.rxjava2:rxjava:jar:2.2.6</node>
-            <node x="500.5" y="1273.509701145415">io.reactivex.rxjava2:rxjava:jar:2.2.6/org.reactivestreams:reactive-streams:jar:1.0.2</node>
-            <node x="268.5" y="193.875">com.alibaba:fastjson:jar:1.2.41</node>
-            <node x="243.5" y="1342.509701145415">org.apache.commons:commons-lang3:jar:3.6</node>
-            <node x="245.0" y="262.875">org.apache.commons:commons-email:jar:1.3.3</node>
-            <node x="540.0" y="220.34703616489344">org.apache.commons:commons-email:jar:1.3.3/javax.mail:mail:jar:1.4.5</node>
-            <node x="837.0" y="220.34703616489344">org.apache.commons:commons-email:jar:1.3.3/javax.mail:mail:jar:1.4.5/javax.activation:activation:jar:1.1</node>
-            <node x="522.0" y="289.34703616489344">org.apache.commons:commons-email:jar:1.3.3/javax.activation:activation:jar:1.1.1</node>
-            <node x="279.5" y="427.34703616489344">redis.clients:jedis:jar:2.8.1</node>
-            <node x="501.5" y="427.34703616489344">redis.clients:jedis:jar:2.8.1/org.apache.commons:commons-pool2:jar:2.4.2</node>
-            <node x="503.5" y="150.5">io.protostuff:protostuff-core:jar:1.6.2</node>
-            <node x="823.0" y="98.22038781324488">io.protostuff:protostuff-core:jar:1.6.2/io.protostuff:protostuff-api:jar:1.6.2</node>
-            <node x="235.0" y="69.0">io.protostuff:protostuff-runtime:jar:1.6.2</node>
-            <node x="464.0" y="81.5">io.protostuff:protostuff-runtime:jar:1.6.2/io.protostuff:protostuff-collectionschema:jar:1.6.2</node>
-            <node x="280.0" y="634.3470361648934">com.esotericsoftware:kryo:jar:5.0.0-RC4</node>
-            <node x="520.0" y="616.072201145415">com.esotericsoftware:kryo:jar:5.0.0-RC4/com.esotericsoftware:reflectasm:jar:1.11.8</node>
-            <node x="523.0" y="685.072201145415">com.esotericsoftware:kryo:jar:5.0.0-RC4/org.objenesis:objenesis:jar:3.0.1</node>
-            <node x="531.5" y="538.875">com.esotericsoftware:kryo:jar:5.0.0-RC4/com.esotericsoftware:minlog:jar:1.3.1</node>
-            <node x="852.0" y="1134.7388678120817">log4j:log4j:jar:1.2.17</node>
-            <node x="514.0" y="1172.259701145415">org.slf4j:slf4j-log4j12:jar:1.7.25</node>
-            <node x="516.5" y="1367.509701145415">org.slf4j:slf4j-simple:jar:1.7.25</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.esotericsoftware:kryo:jar:5.0.0-RC4" target="com.esotericsoftware:kryo:jar:5.0.0-RC4/com.esotericsoftware:minlog:jar:1.3.1">
-              <point x="29.5" y="-9.666666666666629" />
-              <point x="384.0" y="639.1803694982268" />
-              <point x="464.0" y="553.375" />
-              <point x="-36.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-transport:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-buffer:jar:4.1.48.Final">
-              <point x="64.0" y="9.666666666666629" />
-              <point x="-54.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8" target="org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="48.0" y="8.28571428571422" />
-              <point x="384.0" y="1040.6696552125127" />
-              <point x="464.0" y="1118.5811297168436" />
-              <point x="672.0" y="1118.5811297168436" />
-              <point x="752.0" y="1282.3364592418166" />
-              <point x="-41.0" y="-10.875" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-transport-native-epoll:jar:4.1.48.Final/io.netty:netty-transport-native-unix-common:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-transport:jar:4.1.48.Final">
-              <point x="131.0" y="-9.666666666666742" />
-              <point x="-64.0" y="10.875" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-codec:jar:4.1.48.Final">
-              <point x="58.0" y="-0.0" />
-              <point x="672.0" y="906.5722011454151" />
-              <point x="752.0" y="916.1722011454151" />
-              <point x="-53.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-transport-native-epoll:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-transport:jar:4.1.48.Final">
-              <point x="103.0" y="-10.875" />
-              <point x="752.0" y="1021.4625000000001" />
-              <point x="1014.0" y="1021.4625000000001" />
-              <point x="-64.0" y="3.625" />
-            </edge>
-            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.25" target="org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="54.0" y="7.25" />
-              <point x="672.0" y="1194.009701145415" />
-              <point x="752.0" y="1289.5864592418166" />
-              <point x="-41.0" y="-3.625" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-resolver:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-common:jar:4.1.48.Final">
-              <point x="59.5" y="-0.0" />
-              <point x="-61.5" y="-4.14285714285711" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="67.5" y="8.59259259259261" />
-              <point x="235.0" y="1407.009701145415" />
-              <point x="672.0" y="1407.009701145415" />
-              <point x="752.0" y="1304.0864592418166" />
-              <point x="-41.0" y="10.875" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="com.ljm.project:resource-release:1.0-SNAPSHOT">
-              <point x="-67.5" y="-0.0" />
-              <point x="0.0" y="1079.2125" />
-              <point x="0.0" y="1113.7125" />
-              <point x="87.5" y="1113.7125" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="com.squareup.retrofit2:converter-jackson:jar:2.9.0">
-              <point x="67.5" y="10.740740740740648" />
-              <point x="-72.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.commons:commons-email:jar:1.3.3" target="org.apache.commons:commons-email:jar:1.3.3/javax.mail:mail:jar:1.4.5">
-              <point x="64.5" y="-7.25" />
-              <point x="464.0" y="234.84703616489344" />
-              <point x="-28.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-buffer:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-common:jar:4.1.48.Final">
-              <point x="54.0" y="-0.0" />
-              <point x="-61.5" y="4.14285714285711" />
-            </edge>
-            <edge source="com.squareup.retrofit2:converter-jackson:jar:2.9.0" target="com.squareup.retrofit2:converter-jackson:jar:2.9.0/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1">
-              <point x="72.0" y="-7.25" />
-              <point x="-69.5" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="com.google.protobuf:protobuf-java:jar:3.21.12">
-              <point x="67.5" y="4.296296296296305" />
-              <point x="235.0" y="1219.009701145415" />
-              <point x="-58.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-transport-native-epoll:jar:4.1.48.Final/io.netty:netty-transport-native-unix-common:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-common:jar:4.1.48.Final">
-              <point x="131.0" y="9.666666666666742" />
-              <point x="1094.0" y="1070.7180344787485" />
-              <point x="1421.0" y="1070.7180344787485" />
-              <point x="-61.5" y="8.285714285714334" />
-            </edge>
-            <edge source="io.protostuff:protostuff-runtime:jar:1.6.2" target="io.protostuff:protostuff-runtime:jar:1.6.2/io.protostuff:protostuff-collectionschema:jar:1.6.2">
-              <point x="74.5" y="7.25" />
-              <point x="-104.0" y="-0.0" />
-            </edge>
-            <edge source="org.slf4j:slf4j-simple:jar:1.7.25" target="org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="51.5" y="-0.0" />
-              <point x="672.0" y="1382.009701145415" />
-              <point x="752.0" y="1296.8364592418166" />
-              <point x="-41.0" y="3.625" />
-            </edge>
-            <edge source="io.protostuff:protostuff-runtime:jar:1.6.2/io.protostuff:protostuff-collectionschema:jar:1.6.2" target="io.protostuff:protostuff-core:jar:1.6.2/io.protostuff:protostuff-api:jar:1.6.2">
-              <point x="104.0" y="-0.0" />
-              <point x="752.0" y="112.72038781324488" />
-              <point x="-60.0" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.17">
-              <point x="67.5" y="2.1481481481480387" />
-              <point x="235.0" y="1145.197201145415" />
-              <point x="672.0" y="1145.197201145415" />
-              <point x="752.0" y="1149.2388678120817" />
-              <point x="-31.0" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.7.25">
-              <point x="67.5" y="3.2222222222221717" />
-              <point x="235.0" y="1194.009701145415" />
-              <point x="-54.0" y="7.25" />
-            </edge>
-            <edge source="org.db4j:kilim:jar:2.0.1/org.ow2.asm:asm-tree:jar:7.0" target="org.db4j:kilim:jar:2.0.1/org.ow2.asm:asm-tree:jar:7.0/org.ow2.asm:asm:jar:7.0">
-              <point x="43.5" y="-0.0" />
-              <point x="-28.5" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="org.javassist:javassist:jar:3.27.0-GA">
-              <point x="67.5" y="-6.444444444444343" />
-              <point x="235.0" y="510.84703616489344" />
-              <point x="-42.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-codec:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-common:jar:4.1.48.Final">
-              <point x="53.5" y="-9.666666666666629" />
-              <point x="1014.0" y="906.5055344787485" />
-              <point x="1094.0" y="875.9137028315602" />
-              <point x="1421.0" y="875.9137028315602" />
-              <point x="-61.5" y="-8.285714285714334" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="junit:junit:jar:4.4">
-              <point x="67.5" y="-3.2222222222221717" />
-              <point x="235.0" y="749.9303694982268" />
-              <point x="-29.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-common:jar:4.1.48.Final">
-              <point x="58.0" y="-11.600000000000023" />
-              <point x="672.0" y="894.972201145415" />
-              <point x="752.0" y="854.7803694982267" />
-              <point x="1421.0" y="854.7803694982267" />
-              <point x="-61.5" y="-12.428571428571445" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-transport:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-resolver:jar:4.1.48.Final">
-              <point x="64.0" y="-9.666666666666629" />
-              <point x="-59.5" y="7.25" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8" target="org.apache.zookeeper:zookeeper:jar:3.5.8/org.apache.zookeeper:zookeeper-jute:jar:3.5.8">
-              <point x="48.0" y="-4.14285714285711" />
-              <point x="384.0" y="1028.2410837839411" />
-              <point x="464.0" y="992.2597011454151" />
-              <point x="-62.5" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="com.squareup.retrofit2:retrofit:jar:2.9.0">
-              <point x="67.5" y="11.814814814814781" />
-              <point x="235.0" y="1562.759701145415" />
-              <point x="-37.5" y="-0.0" />
-            </edge>
-            <edge source="io.protostuff:protostuff-core:jar:1.6.2" target="io.protostuff:protostuff-core:jar:1.6.2/io.protostuff:protostuff-api:jar:1.6.2">
-              <point x="64.5" y="-0.0" />
-              <point x="672.0" y="165.0" />
-              <point x="752.0" y="122.38705447991151" />
-              <point x="-60.0" y="9.666666666666671" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="io.reactivex.rxjava2:rxjava:jar:2.2.6">
-              <point x="67.5" y="5.370370370370438" />
-              <point x="235.0" y="1288.009701145415" />
-              <point x="-34.0" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="io.protostuff:protostuff-runtime:jar:1.6.2">
-              <point x="67.5" y="-12.888888888888914" />
-              <point x="-74.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-transport-native-epoll:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-common:jar:4.1.48.Final">
-              <point x="103.0" y="10.875" />
-              <point x="752.0" y="1124.2388678120817" />
-              <point x="1421.0" y="1124.2388678120817" />
-              <point x="-61.5" y="12.428571428571445" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="com.google.guava:guava:jar:20.0">
-              <point x="67.5" y="-1.074074074074133" />
-              <point x="235.0" y="932.1489592418164" />
-              <point x="-34.5" y="-0.0" />
-            </edge>
-            <edge source="com.squareup.retrofit2:retrofit:jar:2.9.0/com.squareup.okhttp3:okhttp:jar:3.14.9" target="com.squareup.retrofit2:retrofit:jar:2.9.0/com.squareup.okhttp3:okhttp:jar:3.14.9/com.squareup.okio:okio:jar:1.17.2">
-              <point x="36.5" y="-0.0" />
-              <point x="-29.0" y="-0.0" />
-            </edge>
-            <edge source="com.esotericsoftware:kryo:jar:5.0.0-RC4" target="com.esotericsoftware:kryo:jar:5.0.0-RC4/com.esotericsoftware:reflectasm:jar:1.11.8">
-              <point x="29.5" y="-0.0" />
-              <point x="384.0" y="648.8470361648934" />
-              <point x="464.0" y="630.572201145415" />
-              <point x="-48.0" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="cglib:cglib:jar:3.3.0">
-              <point x="67.5" y="-8.59259259259261" />
-              <point x="235.0" y="372.84703616489344" />
-              <point x="-30.5" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.18.24">
-              <point x="67.5" y="1.074074074074133" />
-              <point x="235.0" y="1101.3839409267985" />
-              <point x="-38.5" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="redis.clients:jedis:jar:2.8.1">
-              <point x="67.5" y="-7.518518518518476" />
-              <point x="235.0" y="441.84703616489344" />
-              <point x="-30.0" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="org.db4j:kilim:jar:2.0.1">
-              <point x="67.5" y="13.962962962963047" />
-              <point x="235.0" y="1769.759701145415" />
-              <point x="-29.5" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="org.apache.zookeeper:zookeeper:jar:3.5.8">
-              <point x="67.5" y="-0.0" />
-              <point x="235.0" y="1032.3839409267985" />
-              <point x="-48.0" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.41">
-              <point x="67.5" y="-10.740740740740648" />
-              <point x="235.0" y="208.375" />
-              <point x="-41.0" y="-0.0" />
-            </edge>
-            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.25" target="log4j:log4j:jar:1.2.17">
-              <point x="54.0" y="-7.25" />
-              <point x="672.0" y="1179.509701145415" />
-              <point x="752.0" y="1158.9055344787485" />
-              <point x="-31.0" y="9.666666666666742" />
-            </edge>
-            <edge source="cglib:cglib:jar:3.3.0" target="cglib:cglib:jar:3.3.0/org.ow2.asm:asm:jar:7.1">
-              <point x="30.5" y="-0.0" />
-              <point x="-28.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-transport-native-epoll:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-buffer:jar:4.1.48.Final">
-              <point x="103.0" y="3.625" />
-              <point x="752.0" y="1083.884701145415" />
-              <point x="1222.0" y="1083.884701145415" />
-              <point x="-54.0" y="11.600000000000023" />
-            </edge>
-            <edge source="org.apache.commons:commons-email:jar:1.3.3" target="org.apache.commons:commons-email:jar:1.3.3/javax.activation:activation:jar:1.1.1">
-              <point x="64.5" y="7.25" />
-              <point x="464.0" y="303.84703616489344" />
-              <point x="-46.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.commons:commons-email:jar:1.3.3/javax.mail:mail:jar:1.4.5" target="org.apache.commons:commons-email:jar:1.3.3/javax.mail:mail:jar:1.4.5/javax.activation:activation:jar:1.1">
-              <point x="28.0" y="-0.0" />
-              <point x="-46.0" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="org.apache.commons:commons-pool2:jar:2.8.0">
-              <point x="67.5" y="9.666666666666742" />
-              <point x="-66.5" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="io.protostuff:protostuff-core:jar:1.6.2">
-              <point x="67.5" y="-11.814814814814781" />
-              <point x="235.0" y="165.0" />
-              <point x="-64.5" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="com.squareup.retrofit2:adapter-rxjava2:jar:2.9.0">
-              <point x="67.5" y="12.888888888888914" />
-              <point x="-64.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final">
-              <point x="48.0" y="-12.428571428571445" />
-              <point x="384.0" y="1019.9553694982269" />
-              <point x="464.0" y="906.5722011454151" />
-              <point x="-58.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/org.apache.zookeeper:zookeeper-jute:jar:3.5.8" target="org.apache.zookeeper:zookeeper:jar:3.5.8/org.apache.yetus:audience-annotations:jar:0.5.0">
-              <point x="62.5" y="-0.0" />
-              <point x="672.0" y="992.2597011454151" />
-              <point x="752.0" y="987.0097011454151" />
-              <point x="-83.5" y="7.25" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="org.apache.commons:commons-email:jar:1.3.3">
-              <point x="67.5" y="-9.666666666666742" />
-              <point x="-64.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-transport:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-common:jar:4.1.48.Final">
-              <point x="64.0" y="-0.0" />
-              <point x="1302.0" y="960.6012028315602" />
-              <point x="1421.0" y="960.6012028315602" />
-              <point x="-61.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-transport-native-epoll:jar:4.1.48.Final/io.netty:netty-transport-native-unix-common:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-buffer:jar:4.1.48.Final">
-              <point x="131.0" y="-0.0" />
-              <point x="1222.0" y="1056.284701145415" />
-              <point x="-54.0" y="5.7999999999999545" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="com.esotericsoftware:kryo:jar:5.0.0-RC4">
-              <point x="67.5" y="-4.296296296296305" />
-              <point x="235.0" y="648.8470361648934" />
-              <point x="-29.5" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="org.apache.commons:commons-lang3:jar:3.6">
-              <point x="67.5" y="6.444444444444343" />
-              <point x="-66.0" y="-0.0" />
-            </edge>
-            <edge source="com.squareup.retrofit2:retrofit:jar:2.9.0" target="com.squareup.retrofit2:retrofit:jar:2.9.0/com.squareup.okhttp3:okhttp:jar:3.14.9">
-              <point x="37.5" y="-0.0" />
-              <point x="-36.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-transport-native-epoll:jar:4.1.48.Final">
-              <point x="48.0" y="-0.0" />
-              <point x="384.0" y="1032.3839409267985" />
-              <point x="-103.0" y="-0.0" />
-            </edge>
-            <edge source="redis.clients:jedis:jar:2.8.1" target="redis.clients:jedis:jar:2.8.1/org.apache.commons:commons-pool2:jar:2.4.2">
-              <point x="30.0" y="-0.0" />
-              <point x="-66.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-resolver:jar:4.1.48.Final">
-              <point x="58.0" y="-5.7999999999999545" />
-              <point x="672.0" y="900.7722011454151" />
-              <point x="752.0" y="860.5803694982269" />
-              <point x="1222.0" y="860.5803694982269" />
-              <point x="-59.5" y="-7.25" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="org.slf4j:slf4j-simple:jar:1.7.25">
-              <point x="67.5" y="7.518518518518476" />
-              <point x="235.0" y="1382.009701145415" />
-              <point x="-51.5" y="-0.0" />
-            </edge>
-            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.13.3" target="com.fasterxml.jackson.core:jackson-databind:jar:2.13.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.13.3">
-              <point x="69.5" y="-7.25" />
-              <point x="464.0" y="768.5722011454151" />
-              <point x="-79.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8" target="org.apache.zookeeper:zookeeper:jar:3.5.8/org.apache.yetus:audience-annotations:jar:0.5.0">
-              <point x="48.0" y="-8.28571428571422" />
-              <point x="384.0" y="1024.0982266410842" />
-              <point x="464.0" y="967.2597011454151" />
-              <point x="672.0" y="967.2597011454151" />
-              <point x="752.0" y="972.5097011454151" />
-              <point x="-83.5" y="-7.25" />
-            </edge>
-            <edge source="com.squareup.retrofit2:adapter-rxjava2:jar:2.9.0" target="com.squareup.retrofit2:adapter-rxjava2:jar:2.9.0/io.reactivex.rxjava2:rxjava:jar:2.0.0">
-              <point x="64.5" y="9.666666666666742" />
-              <point x="464.0" y="1700.759701145415" />
-              <point x="-34.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-codec:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-transport:jar:4.1.48.Final">
-              <point x="53.5" y="9.666666666666629" />
-              <point x="1014.0" y="925.8388678120817" />
-              <point x="-64.0" y="-10.875" />
-            </edge>
-            <edge source="com.squareup.retrofit2:converter-jackson:jar:2.9.0" target="com.squareup.retrofit2:retrofit:jar:2.9.0">
-              <point x="72.0" y="7.25" />
-              <point x="464.0" y="1553.0930344787485" />
-              <point x="-37.5" y="-9.666666666666742" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-transport:jar:4.1.48.Final">
-              <point x="58.0" y="11.600000000000023" />
-              <point x="672.0" y="918.1722011454151" />
-              <point x="752.0" y="954.7597011454151" />
-              <point x="1014.0" y="954.7597011454151" />
-              <point x="-64.0" y="-3.625" />
-            </edge>
-            <edge source="com.squareup.retrofit2:adapter-rxjava2:jar:2.9.0" target="com.squareup.retrofit2:adapter-rxjava2:jar:2.9.0/org.reactivestreams:reactive-streams:jar:1.0.3">
-              <point x="64.5" y="-0.0" />
-              <point x="464.0" y="1631.759701145415" />
-              <point x="-67.5" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind:jar:2.13.3">
-              <point x="67.5" y="-2.1481481481480387" />
-              <point x="-69.5" y="-0.0" />
-            </edge>
-            <edge source="io.reactivex.rxjava2:rxjava:jar:2.2.6" target="io.reactivex.rxjava2:rxjava:jar:2.2.6/org.reactivestreams:reactive-streams:jar:1.0.2">
-              <point x="34.0" y="-0.0" />
-              <point x="-67.5" y="-0.0" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="cn.hutool:hutool-all:jar:5.8.12">
-              <point x="67.5" y="-5.370370370370438" />
-              <point x="235.0" y="579.8470361648934" />
-              <point x="-45.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-buffer:jar:4.1.48.Final">
-              <point x="58.0" y="5.7999999999999545" />
-              <point x="672.0" y="912.372201145415" />
-              <point x="752.0" y="941.1722011454151" />
-              <point x="1222.0" y="941.1722011454151" />
-              <point x="-54.0" y="-5.7999999999999545" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-codec:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-handler:jar:4.1.48.Final/io.netty:netty-buffer:jar:4.1.48.Final">
-              <point x="53.5" y="-0.0" />
-              <point x="1222.0" y="916.1722011454151" />
-              <point x="-54.0" y="-11.600000000000023" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-transport-native-epoll:jar:4.1.48.Final" target="org.apache.zookeeper:zookeeper:jar:3.5.8/io.netty:netty-transport-native-epoll:jar:4.1.48.Final/io.netty:netty-transport-native-unix-common:jar:4.1.48.Final">
-              <point x="103.0" y="-3.625" />
-              <point x="-131.0" y="-0.0" />
-            </edge>
-            <edge source="org.db4j:kilim:jar:2.0.1" target="org.db4j:kilim:jar:2.0.1/org.ow2.asm:asm-tree:jar:7.0">
-              <point x="29.5" y="-0.0" />
-              <point x="-43.5" y="-0.0" />
-            </edge>
-            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.13.3" target="com.fasterxml.jackson.core:jackson-databind:jar:2.13.3/com.fasterxml.jackson.core:jackson-core:jar:2.13.3">
-              <point x="69.5" y="7.25" />
-              <point x="464.0" y="837.5722011454151" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-            <edge source="io.protostuff:protostuff-runtime:jar:1.6.2" target="io.protostuff:protostuff-core:jar:1.6.2/io.protostuff:protostuff-api:jar:1.6.2">
-              <point x="74.5" y="-7.25" />
-              <point x="464.0" y="71.0" />
-              <point x="672.0" y="71.0" />
-              <point x="752.0" y="103.05372114657825" />
-              <point x="-60.0" y="-9.666666666666629" />
-            </edge>
-            <edge source="com.squareup.retrofit2:adapter-rxjava2:jar:2.9.0" target="com.squareup.retrofit2:retrofit:jar:2.9.0">
-              <point x="64.5" y="-9.666666666666742" />
-              <point x="464.0" y="1572.426367812082" />
-              <point x="-37.5" y="9.666666666666742" />
-            </edge>
-            <edge source="com.esotericsoftware:kryo:jar:5.0.0-RC4" target="com.esotericsoftware:kryo:jar:5.0.0-RC4/org.objenesis:objenesis:jar:3.0.1">
-              <point x="29.5" y="9.666666666666629" />
-              <point x="384.0" y="658.5137028315601" />
-              <point x="464.0" y="699.572201145415" />
-              <point x="-45.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8" target="org.slf4j:slf4j-log4j12:jar:1.7.25">
-              <point x="48.0" y="12.428571428571331" />
-              <point x="384.0" y="1044.8125123553696" />
-              <point x="464.0" y="1179.509701145415" />
-              <point x="-54.0" y="-7.25" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:jar:3.5.8" target="log4j:log4j:jar:1.2.17">
-              <point x="48.0" y="4.14285714285711" />
-              <point x="384.0" y="1036.5267980696553" />
-              <point x="464.0" y="1114.4382725739865" />
-              <point x="672.0" y="1114.4382725739865" />
-              <point x="752.0" y="1139.572201145415" />
-              <point x="-31.0" y="-9.666666666666742" />
-            </edge>
-            <edge source="com.ljm.project:resource-release:1.0-SNAPSHOT" target="io.netty:netty-all:jar:4.1.20.Final">
-              <point x="67.5" y="-13.962962962963047" />
-              <point x="235.0" y="14.5" />
-              <point x="-41.5" y="-0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="153.0" y="1129.0" />
-          <SelectedNodes />
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="75" column="42" lean-forward="false" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
-          <folding>
-            <marker date="1677054051770" expanded="true" signature="2346:2532" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="174" column="36" lean-forward="false" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/ReferenceCounted.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="67" column="12" lean-forward="false" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/ReferenceCountUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="87" column="47" lean-forward="false" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/buffer/AbstractByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="269" column="0" lean-forward="false" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/source/echo/EchoServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelOutboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="184" column="23" lean-forward="true" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -2747,82 +2047,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="185" column="13" lean-forward="true" selection-start-line="185" selection-start-column="13" selection-end-line="185" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#1670#1671#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="87" column="19" lean-forward="true" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
-          <folding>
-            <element signature="e#2445#2556#0" expanded="false" />
-            <element signature="e#2555#2556#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="117" column="27" lean-forward="false" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
-          <folding>
-            <element signature="e#4663#4664#0" expanded="true" />
-            <element signature="e#4718#4719#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/source/echo/EchoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="109" column="28" lean-forward="false" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/EventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="86" column="14" lean-forward="false" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -2872,45 +2100,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.48.Final/netty-transport-4.1.48.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="45" column="56" lean-forward="false" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="1417" column="0" lean-forward="true" selection-start-line="1417" selection-start-column="0" selection-end-line="1417" selection-end-column="0" />
-          <folding>
-            <element signature="e#6208#6209#0" expanded="true" />
-            <element signature="e#6260#6261#0" expanded="true" />
-            <element signature="e#7904#7905#0" expanded="true" />
-            <element signature="e#7955#7956#0" expanded="true" />
-            <element signature="e#8933#9110#0" expanded="true" />
-            <element signature="e#9109#9110#0" expanded="true" />
-            <element signature="e#13431#13432#0" expanded="true" />
-            <element signature="e#13477#13478#0" expanded="true" />
-            <element signature="e#14455#14456#0" expanded="true" />
-            <element signature="e#14501#14502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="607" column="0" lean-forward="true" selection-start-line="607" selection-start-column="0" selection-end-line="607" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2941,8 +2134,286 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/unfbx/chatgpt/OpenAiClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="111" column="18" lean-forward="true" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="120" column="42" lean-forward="true" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/EventLoopException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/AbstractScheduledEventExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="104" column="39" lean-forward="false" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/nio/channels/SelectionKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="266" column="28" lean-forward="false" selection-start-line="266" selection-start-column="28" selection-end-line="266" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/EventExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/AbstractEventExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          <folding>
+            <element signature="e#1999#2000#0" expanded="false" />
+            <element signature="e#2057#2058#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/ServerSocketChannelImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="180" column="25" lean-forward="false" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/nio/channels/ServerSocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="268" column="34" lean-forward="false" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/internal/SocketUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="104" column="32" lean-forward="false" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultMaxBytesRecvByteBufAllocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/RecvByteBufAllocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="67" column="13" lean-forward="false" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="232" column="13" lean-forward="false" selection-start-line="232" selection-start-column="13" selection-end-line="232" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/DefaultPromise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="80" column="18" lean-forward="true" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+          <folding>
+            <element signature="e#3861#3862#0" expanded="false" />
+            <element signature="e#3927#3928#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPromise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="254" column="33" lean-forward="false" selection-start-line="254" selection-start-column="33" selection-end-line="254" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/EventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ThreadPerChannelEventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/SingleThreadEventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding>
+            <element signature="e#3045#3046#0" expanded="false" />
+            <element signature="e#3118#3119#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="391" column="22" lean-forward="false" selection-start-line="391" selection-start-column="22" selection-end-line="391" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="212" column="13" lean-forward="false" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="139" column="18" lean-forward="false" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="615" column="20" lean-forward="false" selection-start-line="615" selection-start-column="20" selection-end-line="615" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/echoserver/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding>
+            <element signature="e#4718#4719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/source/echo/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ljm/resource/netty/source/echo/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="67" column="42" lean-forward="false" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+          <folding>
+            <element signature="e#2366#2861#0" expanded="true" />
+            <element signature="e#2860#2861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="146" column="19" lean-forward="false" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="e#1962#1970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="1412" column="0" lean-forward="false" selection-start-line="1412" selection-start-column="0" selection-end-line="1412" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="347" column="0" lean-forward="false" selection-start-line="347" selection-start-column="0" selection-end-line="347" selection-end-column="0" />
+          <folding>
+            <element signature="e#11950#12107#0" expanded="true" />
+            <element signature="e#12106#12107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="645" column="13" lean-forward="true" selection-start-line="645" selection-start-column="13" selection-end-line="645" selection-end-column="13" />
           <folding />
         </state>
       </provider>
