@@ -110,7 +110,7 @@ public class OpenAiClientTest {
 
     @Test
     public void genImages() {
-        Image image = Image.builder().prompt("中国未来").build();
+        Image image = Image.builder().prompt("画一张蜜蜂的图片").build();
         ImageResponse imageResponse = v2.genImages(image);
         System.out.println(imageResponse);
     }
