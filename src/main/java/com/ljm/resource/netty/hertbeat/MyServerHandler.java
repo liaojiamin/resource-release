@@ -29,4 +29,14 @@ public class MyServerHandler extends ChannelInboundHandlerAdapter {
             System.out.println("服务器处理....");
         }
     }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+       cause.printStackTrace();
+    }
+
+    @Override
+    public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+        super.channelReadComplete(ctx);
+    }
 }

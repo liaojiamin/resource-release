@@ -20,8 +20,9 @@ public class KnapsackProblem {
         Random random = new Random();
         for (int i = 0; i < num; i++) {
             source[i] = random.nextInt(10);
-            System.out.println(source[i]);
+            System.out.print(source[i] + "， ");
         }
+        System.out.println();
         return source;
     }
 
@@ -137,14 +138,17 @@ public class KnapsackProblem {
 
     /**
      * 下项适合算法：
-     * 当处理任何一项物品适合，我们坚持是否能装进去刚才装物品的同一个箱子
+     * 当处理任何一项物品时候，我们坚持是否能装进去刚才装物品的同一个箱子
      * 如果能，就放入，如果不能就重新开一个新箱
      */
     public static int[][] multiKnasack(int[] source ) {
         int num = source.length;
         //极端情况，所有获取都是1 ，都在第一个里面
+        //每个箱子存储的物品详情
         int[][] myPackage = new int[num][num];
+        //第n个箱子下一个物品位置
         int[] position = new int[num];
+        //第n个箱子已存储重量
         int[] weight = new int[num];
         int packagePosition = 0;
         for (int i = 0; i < source.length; i++) {
@@ -159,9 +163,10 @@ public class KnapsackProblem {
         return myPackage;
     }
 
+
     public static void main(String[] args) {
         int[] source = getSource(20);
-        int[][] myPackage = multiknasackDecreasing(source);
+        int[][] myPackage = multiKnasack(source);
         for (int i = 0; i < myPackage.length; i++) {
             System.out.print("第" + i + "个箱子：");
             for (int i1 = 0; i1 < myPackage[i].length; i1++) {

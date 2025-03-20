@@ -44,7 +44,7 @@ public class ProcessorScheduling {
         for (int i = 0; i < num; i++) {
             Task task = new Task();
             task.setTaskName("t" + i);
-            task.setTaskTime(random.nextInt(10));
+            task.setTaskTime(random.nextInt(10)+1);
             tasks[i] = task;
         }
         return tasks;
@@ -104,8 +104,9 @@ public class ProcessorScheduling {
     public void finishTask(Integer p) {
         Task[] tasks = sortTask(getTask(8));
         for (int i = 0; i < tasks.length; i++) {
-            System.out.println(tasks[i].getTaskName() + ":" + tasks[i].getTaskTime());
+            System.out.print(tasks[i].getTaskName() + ":" + tasks[i].getTaskTime() + "， ");
         }
+        System.out.println();
         //存储每个列表总时长
         int[] countP = new int[p];
         //存储每个cpu的任务存储位置

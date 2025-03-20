@@ -26,9 +26,15 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 public class EchoServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
-    public void channelRead(ChannelHandlerContext ctx, Object msg) {
+    public void channelRead(ChannelHandlerContext ctx, Object msg) throws InterruptedException {
         System.out.println("server msg:" + msg);
+        Thread.sleep(10*1000);
         ctx.write(msg);
+//        ctx.read();
+//        ctx.pipeline().read();
+//        ctx.fireChannelRead(1);
+//        ctx.pipeline().fireChannelRead(1);
+
     }
 
     @Override

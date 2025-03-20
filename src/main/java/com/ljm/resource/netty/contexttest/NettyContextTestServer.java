@@ -31,9 +31,9 @@ public class NettyContextTestServer {
                             ChannelPipeline pipeline = ch.pipeline();
                             pipeline.addLast("decoder", new StringDecoder());
                             pipeline.addLast("encoder", new StringEncoder());
-                            pipeline.addLast(new NettyServerContextHandlerTest1());
-                            pipeline.addLast(new NettyServerContextHandlerTest2());
-                            pipeline.addLast(new NettyServerContextHandlerTest3());
+                            pipeline.addLast("test1", new NettyServerContextHandlerTest1());
+                            pipeline.addLast("test2", new NettyServerContextHandlerTest2());
+                            pipeline.addLast("test3", new NettyServerContextHandlerTest3());
                         }
                     });
             System.out.println("Netty server start!!");

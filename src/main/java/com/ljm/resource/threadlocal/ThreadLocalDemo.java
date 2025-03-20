@@ -30,7 +30,7 @@ public class ThreadLocalDemo implements Runnable{
         for (int i = 0; i < 1000; i++) {
             ThreadLocalDemo threadLocalDemo = new ThreadLocalDemo(new Date().getTime());
             new Thread(threadLocalDemo).start();
-            Thread.sleep(100);
+//            Thread.sleep(100);
         }
 
     }

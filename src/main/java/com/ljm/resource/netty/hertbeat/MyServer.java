@@ -11,6 +11,8 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.timeout.IdleStateHandler;
+import io.netty.handler.timeout.ReadTimeoutHandler;
+import io.netty.handler.timeout.WriteTimeoutHandler;
 
 import java.util.concurrent.TimeUnit;
 
@@ -33,6 +35,8 @@ public class MyServer {
                         protected void initChannel(SocketChannel ch) throws Exception {
                             ChannelPipeline pipeline = ch.pipeline();
                             pipeline.addLast(new IdleStateHandler(7000, 7000, 10, TimeUnit.SECONDS));
+//                            pipeline.addLast(new ReadTimeoutHandler(7));
+//                            pipeline.addLast(new WriteTimeoutHandler(7));
                             pipeline.addLast(new MyServerHandler());
                         }
                     });

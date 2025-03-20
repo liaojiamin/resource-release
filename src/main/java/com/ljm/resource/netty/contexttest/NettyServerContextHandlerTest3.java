@@ -11,18 +11,21 @@ public class NettyServerContextHandlerTest3 extends SimpleChannelInboundHandler<
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
         System.out.println("test3 get msg: "+ msg);
-        ctx.read();
+        ctx.writeAndFlush(msg);
+//        ctx.read();
+//        ctx.pipeline().fireChannelRead(new String("this msg send for test3"));
     }
 
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
         System.out.println("执行 test3 中channelReadComplete");
-        ctx.writeAndFlush(new String("this msg send for test3"));
+//        ctx.writeAndFlush(new String("this msg send for test3"));
+//        ctx.pipeline().fireChannelRead(new String("this msg send for test3"));
     }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        System.out.println(ctx.channel().remoteAddress() + " is online");
+        System.out.println(ctx.channel().remoteAddress() + " is online test3");
     }
 
     @Override

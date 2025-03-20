@@ -35,8 +35,12 @@ public class FindSumInSortArray {
 //            }
 //            System.out.println();
 //        }
-        int[] randomArray = new int[]{1, 2, 8, 0, 7, -1, -2, -3, -4, -5, 99, 76, 53, 11, 17, 13};
-        System.out.println(findSumInRandomArray(randomArray, 9));
+//        int[] randomArray = new int[]{1, 2, 8, 0, 7, -1, -2, -3, -4, -5, 99, 76, 53, 11, 17, 13};
+//        System.out.println(findSumInRandomArray(randomArray, 9));
+
+                int[] arrayAll = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14};
+                int[] result = twoSum(arrayAll, 18);
+        System.out.println(result[0] + "   "+ result[1]);
     }
 
     /**
@@ -55,6 +59,29 @@ public class FindSumInSortArray {
             }
         }
         return "-1";
+    }
+
+
+    /**
+     * 非有序数组中找出和为s的两个数
+     */
+    public static int[] twoSum(int[] nums, int target) {
+        int[] targetResult = new int[2];
+        if(nums == null || nums.length <=1){
+            return targetResult;
+        }
+        Map<Integer, Integer> saveMap = new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            Integer key = nums[i];
+            Integer value = target - key;
+            if(saveMap.containsKey(value)){
+                targetResult[0] = i;
+                targetResult[1] = saveMap.get(target-key);
+            }else{
+                saveMap.put(key, i);
+            }
+        }
+        return targetResult;
     }
 
     /**
